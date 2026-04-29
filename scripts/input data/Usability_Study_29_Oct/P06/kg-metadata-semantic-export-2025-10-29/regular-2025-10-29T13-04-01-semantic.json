@@ -1,0 +1,181 @@
+{
+  "name": "YAGO",
+  "dcat:acronym": [
+    "YAGO"
+  ],
+  "date": "2025-10-29T13:04:01.488Z",
+  "formData": {
+    "dct:identifier": [
+      "02d9dc1d-0b61-43c1-8aef-0841ed07c388"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "YAGO",
+    "dct:description": "YAGO is a large-scale semantic knowledge graph (KG) and ontology that unites factual\ninformation from major reference sources including Wikipedia\n(https://www.wikipedia.org/), WordNet (https://wordnet.princeton.edu/), Wikidata\n(https://www.wikidata.org/), and GeoNames (https://www.geonames.org/).",
+    "dct:created": "2012/10/29",
+    "dct:modified": [
+      "2013/09/15"
+    ],
+    "dct:issued": "2013/05/23",
+    "dct:alternative": [
+      "Yet Another Great Ontology"
+    ],
+    "dcat:acronym": [
+      "YAGO"
+    ],
+    "dcat:landingPage": [
+      "https://yagoknowledge.org/"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.mpi-inf.mpg.de/home"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "Max-Planck-Institut für Informatik",
+        "email": "library@mpi-sb.mpg.de",
+        "id": 1761742512483
+      },
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Fabian M",
+        "email": "fabianm@gmail.com",
+        "id": 1761742526901
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "YAGO files",
+        "description": "YAGO download page",
+        "mediaType": "“link”",
+        "downloadURL": "http://yago-knowledge.org",
+        "accessURL": "http://yago-knowledge.org",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "void:description": [
+      "http://yago-knowledge.org/resource/"
+    ],
+    "dct:conformsTo": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "void:triple": [
+      "5,000,000"
+    ],
+    "void:vocabulary": [
+      "http://yago-knowledge.org/resource/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/2004/02/skos/core#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/bowdenk7/yago"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://query.Yago.org/sparql",
+        "dct:identifier": "Wikidata SPARQL endpoint",
+        "dct:title": "Yago Query Service",
+        "dct:description": "The Wikidata Query Service generally contains the full data of Wikidata.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      ":Albert_Einstein :hasAcademicAdvisor :Alfred_Kleiner ."
+    ],
+    "dcat:keyword": [
+      "ontology",
+      "knowledge extraction",
+      "wikipedia",
+      "wordnet"
+    ],
+    "dcat:theme": [],
+    "dct:references": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "dct:language": [
+      "en",
+      "de",
+      "fr",
+      "nl",
+      "it",
+      "es"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [
+      {
+        "target": "http://yago-knowledge.org/resource/",
+        "triples": ""
+      },
+      {
+        "target": "http://www.w3.org/2001/XMLSchema#",
+        "triples": ""
+      },
+      {
+        "target": "http://www.w3.org/2000/01/rdf-schema#",
+        "triples": ""
+      },
+      {
+        "target": "http://www.w3.org/2004/02/skos/core#",
+        "triples": ""
+      }
+    ],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://publications.europa.eu/resource/authority/data-theme/CULT",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:04:01.488Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+    "submissionId": "kg-meta-1761743041488"
+  },
+  "validationErrors": {
+    "missingFields": [],
+    "invalidDates": [],
+    "errorMessage": "",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:04:01.488Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": false,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:04:01.488Z",
+    "formOpenedAt": "2025-10-29T12:51:51.338Z",
+    "formSubmittedAt": "2025-10-29T13:04:01.488Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 730,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:51:51.338Z",
+        "endTime": "2025-10-29T13:04:01.488Z",
+        "durationSeconds": 730
+      }
+    ],
+    "totalTimeSpentSeconds": 730,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+  "timestamp": "2025-10-29T13:04:01.488Z",
+  "exportDate": "2025-10-29T13:19:42.649Z"
+}

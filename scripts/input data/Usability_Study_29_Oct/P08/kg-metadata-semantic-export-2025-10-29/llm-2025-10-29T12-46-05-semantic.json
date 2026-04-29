@@ -1,0 +1,500 @@
+{
+  "name": "YAGO",
+  "dcat:acronym": [],
+  "date": "2025-10-29T12:46:05.844Z",
+  "formData": {
+    "dct:identifier": [
+      "686b7f93-e8f8-4346-be65-5a99a728fb46"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "YAGO",
+    "dct:description": "YAGO is a large-scale semantic knowledge graph that unites factual information from major reference sources including Wikipedia, WordNet, Wikidata, and GeoNames.",
+    "dct:created": "",
+    "dct:modified": [],
+    "dct:issued": "2013-05-23",
+    "dct:alternative": [
+      "Yet Another Great Ontology"
+    ],
+    "dcat:acronym": [],
+    "dcat:landingPage": [
+      "http://yago-knowledge.org"
+    ],
+    "rdfs:seeAlso": [
+      "http://www.mpi-inf.mpg.de/home",
+      "https://www.wikipedia.org/",
+      "https://wordnet.princeton.edu/",
+      "https://www.wikidata.org/",
+      "https://www.geonames.org/"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "publisher",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Max-Planck-Institut für Informatik",
+        "email": "library@mpi-sb.mpg.de"
+      },
+      {
+        "roleType": "creator",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Fabian M.",
+        "email": "FabianM@gmail.com"
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "YAGO files",
+        "description": "YAGO download page",
+        "mediaType": "link",
+        "downloadURL": "http://yago-knowledge.org",
+        "accessURL": "http://yago-knowledge.org",
+        "byteSize": "",
+        "license": "",
+        "rights": "",
+        "accessService": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "void:description": [
+      "https://yagoknowledge.org/"
+    ],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "http://www.w3.org/2001/XMLSchema#"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T12:46:05.844Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "submissionId": "kg-meta-1761741965844"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Keywords"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Keywords",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T12:46:05.843Z"
+  },
+  "aiSuggestions": {
+    "dct:title": "• YAGO",
+    "title_raw": {
+      "suggestions": [
+        {
+          "value": "YAGO",
+          "explanation": "Found as the main title of the knowledge graph in the narrative."
+        }
+      ]
+    },
+    "dct:description": "• YAGO is a large-scale semantic knowledge graph that unites factual information from major reference sources including Wikipedia, WordNet, Wikidata, and GeoNames.",
+    "description_raw": {
+      "suggestions": [
+        {
+          "value": "YAGO is a large-scale semantic knowledge graph that unites factual information from major reference sources including Wikipedia, WordNet, Wikidata, and GeoNames.",
+          "explanation": "This is a summary description of YAGO found in the narrative."
+        }
+      ]
+    },
+    "dct:created": "• 2012-10-29",
+    "createdDate_raw": {
+      "suggestions": [
+        {
+          "value": "2012-10-29",
+          "explanation": "Found as the creation date of the ontology in the narrative."
+        }
+      ]
+    },
+    "dct:modified": "• 2013-09-15",
+    "modifiedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2013-09-15",
+          "explanation": "Found as the last modification date of the ontology in the narrative."
+        }
+      ]
+    },
+    "dct:issued": "• 2013-05-23",
+    "publishedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2013-05-23",
+          "explanation": "Found as the publication date of the ontology in the narrative."
+        }
+      ]
+    },
+    "dct:alternative": "• Yet Another Great Ontology",
+    "alternativeTitle_raw": {
+      "suggestions": [
+        {
+          "value": "Yet Another Great Ontology",
+          "explanation": "Found as the expanded form of YAGO in the narrative."
+        }
+      ]
+    },
+    "dcat:acronym": "• YAGO",
+    "acronym_raw": {
+      "suggestions": [
+        {
+          "value": "YAGO",
+          "explanation": "Found as the acronym used to identify the knowledge graph."
+        }
+      ]
+    },
+    "dcat:landingPage": "• http://yago-knowledge.org",
+    "homepageURL_raw": {
+      "suggestions": [
+        {
+          "value": "http://yago-knowledge.org",
+          "explanation": "Found as the main website for YAGO in the narrative."
+        }
+      ]
+    },
+    "rdfs:seeAlso": "• http://www.mpi-inf.mpg.de/home\n• https://www.wikipedia.org/\n• https://wordnet.princeton.edu/\n• https://www.wikidata.org/\n• https://www.geonames.org/",
+    "otherPages_raw": {
+      "suggestions": [
+        {
+          "value": "http://www.mpi-inf.mpg.de/home",
+          "explanation": "Found as an institutional webpage related to YAGO."
+        },
+        {
+          "value": "https://www.wikipedia.org/",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "https://wordnet.princeton.edu/",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "https://www.wikidata.org/",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "https://www.geonames.org/",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        }
+      ]
+    },
+    "dct:license": "• https://opensource.org/licenses/GPL-3.0",
+    "license_raw": {
+      "suggestions": [
+        {
+          "value": "https://opensource.org/licenses/GPL-3.0",
+          "explanation": "Found as the license under which YAGO is openly available."
+        }
+      ]
+    },
+    "dcat:version": "• 1.0",
+    "version_raw": {
+      "suggestions": [
+        {
+          "value": "1.0",
+          "explanation": "Found as the version of the YAGO ontology mentioned in the narrative."
+        }
+      ]
+    },
+    "cito:citesAsAuthority": "• https://suchanek.name/work/publications/www2007.pdf",
+    "primaryReferenceDocument_raw": {
+      "suggestions": [
+        {
+          "value": "https://suchanek.name/work/publications/www2007.pdf",
+          "explanation": "Found as the primary reference document describing YAGO."
+        }
+      ]
+    },
+    "void:description": "• https://yagoknowledge.org/",
+    "metaGraph_raw": {
+      "suggestions": [
+        {
+          "value": "https://yagoknowledge.org/",
+          "explanation": "Found as the location of a graphical overview (meta graph) of YAGO."
+        }
+      ]
+    },
+    "void:triple": "• 900,000 entities\n• 5,000,000 triples",
+    "statistics_raw": {
+      "suggestions": [
+        {
+          "value": "900,000 entities",
+          "explanation": "Found as part of the content statistics for YAGO."
+        },
+        {
+          "value": "5,000,000 triples",
+          "explanation": "Found as part of the content statistics for YAGO."
+        }
+      ]
+    },
+    "void:vocabulary": "• http://yago-knowledge.org/resource/\n• http://www.w3.org/2001/XMLSchema#\n• http://www.w3.org/2000/01/rdf-schema#\n• http://www.w3.org/2004/02/skos/core#",
+    "vocabulariesUsed_raw": {
+      "suggestions": [
+        {
+          "value": "http://yago-knowledge.org/resource/",
+          "explanation": "Found as the namespace for YAGO entities."
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema#",
+          "explanation": "Found as one of the vocabularies used in YAGO."
+        },
+        {
+          "value": "http://www.w3.org/2000/01/rdf-schema#",
+          "explanation": "Found as one of the vocabularies used in YAGO."
+        },
+        {
+          "value": "http://www.w3.org/2004/02/skos/core#",
+          "explanation": "Found as one of the vocabularies used in YAGO."
+        }
+      ]
+    },
+    "dcat:servesDataset": "• https://github.com/bowdenk7/yago",
+    "restAPI_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/bowdenk7/yago",
+          "explanation": "Found as the REST API endpoint for YAGO."
+        }
+      ]
+    },
+    "void:sparqlEndpoint": "• {\"endpointURL\": \"https://query.Yago.org/sparql\", \"title\": \"Yago Query Service\", \"endpointDescription\": \"The Wikidata Query Service generally contains the full data of Wikidata.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+    "sparqlEndpoint_raw": {
+      "suggestions": [
+        {
+          "value": "{\"endpointURL\": \"https://query.Yago.org/sparql\", \"title\": \"Yago Query Service\", \"endpointDescription\": \"The Wikidata Query Service generally contains the full data of Wikidata.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+          "explanation": "Found detailed information about the SPARQL endpoint for YAGO."
+        }
+      ]
+    },
+    "mod:sampleQueries": "• https://gist.github.com/mepcotterell/1833564",
+    "exampleQueries_raw": {
+      "suggestions": [
+        {
+          "value": "https://gist.github.com/mepcotterell/1833564",
+          "explanation": "Found as the location listing sample SPARQL queries for YAGO."
+        }
+      ]
+    },
+    "dcat:keyword": "• Ontology\n• Knowledge Extraction\n• Wikipedia\n• WordNet",
+    "keywords_raw": {
+      "suggestions": [
+        {
+          "value": "Ontology",
+          "explanation": "Found as one of the keywords associated with YAGO."
+        },
+        {
+          "value": "Knowledge Extraction",
+          "explanation": "Found as one of the keywords associated with YAGO."
+        },
+        {
+          "value": "Wikipedia",
+          "explanation": "Found as one of the keywords associated with YAGO."
+        },
+        {
+          "value": "WordNet",
+          "explanation": "Found as one of the keywords associated with YAGO."
+        }
+      ]
+    },
+    "dcat:theme": "• http://publications.europa.eu/resource/authority/data-theme/CULT",
+    "category_raw": {
+      "suggestions": [
+        {
+          "value": "http://publications.europa.eu/resource/authority/data-theme/CULT",
+          "explanation": "Found as the category under which YAGO is classified."
+        }
+      ]
+    },
+    "dct:references": "• https://arxiv.org/abs/2308.11884",
+    "publicationReferences_raw": {
+      "suggestions": [
+        {
+          "value": "https://arxiv.org/abs/2308.11884",
+          "explanation": "Found as an additional reference for YAGO."
+        }
+      ]
+    },
+    "dct:language": "• en\n• de\n• fr\n• nl\n• it\n• es\n• ro\n• pl\n• ar",
+    "language_raw": {
+      "suggestions": [
+        {
+          "value": "en",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "de",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "fr",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "nl",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "it",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "es",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "ro",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "pl",
+          "explanation": "Found as one of the languages represented in YAGO."
+        },
+        {
+          "value": "ar",
+          "explanation": "Found as one of the languages represented in YAGO."
+        }
+      ]
+    },
+    "void:uriRegexPattern": "• http://yago-knowledge.org/resource/{EntityName}",
+    "iriTemplate_raw": {
+      "suggestions": [
+        {
+          "value": "http://yago-knowledge.org/resource/{EntityName}",
+          "explanation": "Found as the IRI template for identifying entities in YAGO."
+        }
+      ]
+    },
+    "void:linkset": "• {\"target\": \"http://www.wikidata.org\", \"triples\": \"3068\"}",
+    "linkedResources_raw": {
+      "suggestions": [
+        {
+          "value": "{\"target\": \"http://www.wikidata.org\", \"triples\": \"3068\"}",
+          "explanation": "Found as linked resource information regarding interlinked Wikidata targets."
+        }
+      ]
+    },
+    "void:exampleResource": "• {\"title\": \"Albert Einstein\", \"description\": \"YAGO example resource\", \"accessURL\": \"http://mpii.mpg.de/yago#Albert_Einstein\"}",
+    "exampleResource_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"Albert Einstein\", \"description\": \"YAGO example resource\", \"accessURL\": \"http://mpii.mpg.de/yago#Albert_Einstein\"}",
+          "explanation": "Found as an example resource demonstrating the structure of YAGO."
+        }
+      ]
+    },
+    "dct:accessRights": "No suitable suggestions found.\nNo specific access restrictions or statements were mentioned in the narrative.",
+    "prov:hadPrimarySource": "• Wikipedia\n• WordNet\n• Wikidata\n• GeoNames",
+    "source_raw": {
+      "suggestions": [
+        {
+          "value": "Wikipedia",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "WordNet",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "Wikidata",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        },
+        {
+          "value": "GeoNames",
+          "explanation": "Found as one of the major reference sources for YAGO."
+        }
+      ]
+    },
+    "void:uriSpace": "• http://yago-knowledge.org/resource/",
+    "nameSpace_raw": {
+      "suggestions": [
+        {
+          "value": "http://yago-knowledge.org/resource/",
+          "explanation": "Found as the namespace for YAGO entities."
+        }
+      ]
+    },
+    "prov:qualifiedAttribution": "• publisher: Max-Planck-Institut für Informatik (library@mpi-sb.mpg.de)\n• creator: Fabian M. (FabianM@gmail.com)",
+    "roles_raw": {
+      "suggestions": [
+        {
+          "value": "publisher: Max-Planck-Institut für Informatik (library@mpi-sb.mpg.de)",
+          "explanation": "Found 'published by Max-Planck-Institut für Informatik' with email in narrative.",
+          "roleData": {
+            "roleType": "publisher",
+            "mode": "name_mbox",
+            "name": "Max-Planck-Institut für Informatik",
+            "email": "library@mpi-sb.mpg.de"
+          }
+        },
+        {
+          "value": "creator: Fabian M. (FabianM@gmail.com)",
+          "explanation": "Found 'creator of the KG is Fabian M.' with email in narrative.",
+          "roleData": {
+            "roleType": "creator",
+            "mode": "name_mbox",
+            "name": "Fabian M.",
+            "email": "FabianM@gmail.com"
+          }
+        }
+      ]
+    },
+    "dcat:distribution": "• {\"title\": \"YAGO files\", \"description\": \"YAGO download page\", \"mediaType\": \"link\", \"downloadURL\": \"http://yago-knowledge.org\", \"accessURL\": \"http://yago-knowledge.org\"}",
+    "distributions_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"YAGO files\", \"description\": \"YAGO download page\", \"mediaType\": \"link\", \"downloadURL\": \"http://yago-knowledge.org\", \"accessURL\": \"http://yago-knowledge.org\"}",
+          "explanation": "Found distribution data in narrative."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "submissionType": "llm",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T12:46:05.844Z",
+    "formOpenedAt": "2025-10-29T12:41:55.639Z",
+    "formSubmittedAt": "2025-10-29T12:46:05.843Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 250,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:41:55.639Z",
+        "endTime": "2025-10-29T12:46:05.843Z",
+        "durationSeconds": 250
+      }
+    ],
+    "totalTimeSpentSeconds": 250,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "timestamp": "2025-10-29T12:46:05.844Z",
+  "exportDate": "2025-10-29T13:18:50.686Z"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Bio2RDF",
+  "dcat:acronym": [
+    "Bio2RDF"
+  ],
+  "date": "2025-10-29T12:56:49.009Z",
+  "formData": {
+    "dct:identifier": [
+      "b9bdf0ef-533e-498b-a13d-820619364fe9"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "a semantic integrati on framework for bioinformatics data sources, converting public biological and chemical databases into RDF graphs.",
+    "dct:created": "2014-11-20",
+    "dct:modified": [
+      "2014/09/15"
+    ],
+    "dct:issued": "2013-12-11",
+    "dct:alternative": [
+      "Linked Data Network for Bioinformatics"
+    ],
+    "dcat:acronym": [
+      "Bio2RDF"
+    ],
+    "dcat:landingPage": [
+      "https://bio2rdf.org/"
+    ],
+    "rdfs:seeAlso": [],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "Bio2RDF Consortium",
+        "email": "info@bio2rdf.org",
+        "id": 1761742216645
+      },
+      {
+        "roleType": "contributor",
+        "agent": "",
+        "givenName": "Michel Dumontier",
+        "email": "michel.dumontier@bio2rdf.org",
+        "id": 1761742286720
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [
+      "http://www2007.org/workshop-W2.php"
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "knowledge integration",
+      "linked data",
+      "ontology",
+      "semantic web",
+      "bioinformatics database",
+      "data interoperability"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "it",
+      "fr"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T12:56:49.009Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761742609009"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution",
+      "Access Statement"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution, Access Statement",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T12:56:49.008Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T12:56:49.009Z",
+    "formOpenedAt": "2025-10-29T12:40:27.297Z",
+    "formSubmittedAt": "2025-10-29T12:56:49.008Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 982,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:40:27.297Z",
+        "endTime": "2025-10-29T12:56:49.008Z",
+        "durationSeconds": 982
+      }
+    ],
+    "totalTimeSpentSeconds": 982,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T12:56:49.009Z",
+  "exportDate": "2025-10-29T13:54:08.653Z"
+}

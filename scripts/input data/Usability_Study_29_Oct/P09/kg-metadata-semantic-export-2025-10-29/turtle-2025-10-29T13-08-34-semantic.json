@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:08:34.096Z",
+  "formData": {
+    "turtleContent": "@prefix dct: <http://purl.org/dc/terms/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.\n@prefix dcat: <> .\n@prefix qudt: <> .\n@prefix foaf: <> . \n@prefix rdfs: <> . \n<https://www.quotekg.l3s.uni-hannover.de>\n  dct:identifier \"\" ;\n  dct:title \"QuoteKG\"@en ; \n  dct:alternative \"Quote Knowledge Graph\"@en ;\n  a dcat:Dataset ;\n  qudt:acronym \"QKG\" ;\n  foaf:page <https://github.com/tkuculo/QuoteKG> ;\n  rdfs:seeAlso <https://zenodo.org/record/4702544> ;\n  dct:created \"2019 -10 -20 T00 :00:00 Z\"^^ xsd:dateTimeStamp ;",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:08:34.096Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761743314096"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 15,
+          "column": "unknown",
+          "message": "Unexpected \"\" on line 15."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 529,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:52:35.079Z",
+    "formSubmittedAt": "2025-10-29T13:08:34.095Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 959,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:52:35.079Z",
+        "endTime": "2025-10-29T13:08:34.095Z",
+        "durationSeconds": 959
+      }
+    ],
+    "totalTimeSpentSeconds": 959,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:08:34.096Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:08:34.096Z",
+  "exportDate": "2025-10-31T10:25:36.877Z"
+}

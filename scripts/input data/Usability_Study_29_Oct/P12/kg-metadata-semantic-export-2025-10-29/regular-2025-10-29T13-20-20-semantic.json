@@ -1,0 +1,159 @@
+{
+  "name": "QuoteKG",
+  "dcat:acronym": [
+    "QKG"
+  ],
+  "date": "2025-10-29T13:20:20.488Z",
+  "formData": {
+    "dct:identifier": [
+      "256826a8-4221-4d23-8c33-c70baf679ff6"
+    ],
+    "rdf:type": [
+      "dcat:Dataset"
+    ],
+    "dct:title": "QuoteKG",
+    "dct:description": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+    "dct:created": "2019/11/19",
+    "dct:modified": [
+      "2021/09/15"
+    ],
+    "dct:issued": "2020/12/11",
+    "dct:alternative": [
+      "Quote Knowledge Graph"
+    ],
+    "dcat:acronym": [
+      "QKG"
+    ],
+    "dcat:landingPage": [
+      "https://www.quotekg.l3s.uni-hannover.de"
+    ],
+    "rdfs:seeAlso": [
+      "https://github.com/tkuculo/QuoteKG"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Tin Kuculo",
+        "email": "Tin@hotmail.com",
+        "id": 1761743396813
+      },
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Simon Gottschalk",
+        "email": "simon@yahoo.com",
+        "id": 1761743417024
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "QuoteKG dataset files",
+        "description": "Access to QuoteKG datasets, SPARQL endpoint, and documentation",
+        "mediaType": "link",
+        "downloadURL": "https://zenodo.org/record/4702544",
+        "accessURL": "https://www.quotekg.l3s.uni-hannover.de",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [],
+    "void:description": [
+      "https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264"
+    ],
+    "dct:conformsTo": [],
+    "void:triple": [
+      "10000000"
+    ],
+    "void:vocabulary": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/t-kuculo/QuoteKG"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://www.quotekg.l3s.uni-hannover.de/sparql",
+        "dct:identifier": "QuoteKG SPARQL endpoint",
+        "dct:title": "QuoteKG Query Service",
+        "dct:description": "The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE { ?quote a so:Quotation ; so:spokenByCharacter [ skos:prefLabel ?Person ] . } GROUP BY ?Person ORDER BY DESC(COUNT(?quote))"
+    ],
+    "dcat:keyword": [
+      "http://dbpedia.org/resource/Digital_humanities"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "it",
+      "ge",
+      "cr",
+      "we"
+    ],
+    "void:uriRegexPattern": [
+      "http://quotekg.org/resource/{QuoteID}"
+    ],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://purl.org/dc/terms/accessRights/open",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:20:20.488Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
+    "submissionId": "kg-meta-1761744020488"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Primary Reference Document"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Primary Reference Document",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:20:20.486Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:20:20.488Z",
+    "formOpenedAt": "2025-10-29T13:08:12.457Z",
+    "formSubmittedAt": "2025-10-29T13:20:20.486Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 728,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:08:12.457Z",
+        "endTime": "2025-10-29T13:20:20.486Z",
+        "durationSeconds": 728
+      }
+    ],
+    "totalTimeSpentSeconds": 728,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
+  "timestamp": "2025-10-29T13:20:20.488Z",
+  "exportDate": "2025-10-29T13:20:34.433Z"
+}

@@ -1,0 +1,535 @@
+{
+  "name": "Bio2RDF",
+  "dcat:acronym": [
+    "Bio2RDF"
+  ],
+  "date": "2025-10-29T13:42:12.230Z",
+  "formData": {
+    "dct:identifier": [
+      "2095dcac-e0fd-4458-a240-afcd26e41132"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources.",
+    "dct:created": "2014-11-20",
+    "dct:modified": [
+      "2014-09-15"
+    ],
+    "dct:issued": "2013-12-11",
+    "dct:alternative": [
+      "Linked Data Network for Bioinformatics"
+    ],
+    "dcat:acronym": [
+      "Bio2RDF"
+    ],
+    "dcat:landingPage": [
+      "http://bio2rdf.org"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.bio2rdf.org/about"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "Bio2RDF Consortium",
+        "email": "info@bio2rdf.org",
+        "id": 1761745132489
+      },
+      {
+        "roleType": "custodian",
+        "agent": "",
+        "givenName": "Michel Dumontier",
+        "email": "michel.dumontier@bio2rdf.org",
+        "id": 1761745140419
+      }
+    ],
+    "dct:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "Bio2RDF dataset files",
+        "description": "Bio2RDF download and documentation page",
+        "mediaType": "link",
+        "downloadURL": "http://bio2rdf.org",
+        "accessURL": "https://zenodo.org/record/4702544",
+        "byteSize": "",
+        "license": "",
+        "rights": "",
+        "accessService": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "http://www2007.org/workshop-W2.php",
+      "https://www.nature.com/articles/s41597-021-00797-y/figures/1"
+    ],
+    "void:description": [
+      "https://bio2rdf.org/"
+    ],
+    "dct:conformsTo": [
+      "https://bio2rdf.org/"
+    ],
+    "void:triple": [
+      "over 1 million biological entities",
+      "tens of millions of RDF triples",
+      "411,912 contextual metadata statements",
+      "69,000 biological identifiers"
+    ],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/bio2rdf/bio2rdf-scripts"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "http://bio2rdf.org/sparql",
+        "dct:identifier": "",
+        "dct:title": "Bio2RDF Query Service",
+        "dct:description": "The Bio2RDF SPARQL endpoint enables federated queries across all biomedical subgraphs, supporting cross-domain discovery and reasoning.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "https://github.com/bio2rdf/bio2rdf-scripts/wiki/Query-repository"
+    ],
+    "dcat:keyword": [
+      "knowledge integration",
+      "linked data",
+      "ontology",
+      "semantic web",
+      "bioinformatics database",
+      "data interoperability"
+    ],
+    "dcat:theme": [
+      "http://dbpedia.org/resource/Bioinformatics",
+      "http://dbpedia.org/resource/Semantic_Web"
+    ],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "it",
+      "fr"
+    ],
+    "void:uriRegexPattern": [
+      "http://bio2rdf.org/{namespace}:{identifier}"
+    ],
+    "void:linkset": [
+      {
+        "target": "http://wikidata.org",
+        "triples": "1240"
+      },
+      {
+        "target": "http://dbpedia.org",
+        "triples": "963"
+      }
+    ],
+    "void:exampleResource": [
+      {
+        "dct:title": "PubMed article 1",
+        "dct:description": "PubMed article 12728276",
+        "adms:status": "",
+        "dcat:accessURL": "http://bio2rdf.org/pubmed:12728276"
+      }
+    ],
+    "dct:accessRights": "The dataset is open access and freely available for academic research, reuse, and integration under open data principles.",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [
+      "http://bio2rdf.org/"
+    ],
+    "timestamp": "2025-10-29T13:42:12.230Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+    "submissionId": "kg-meta-1761745332230"
+  },
+  "validationErrors": {
+    "missingFields": [],
+    "invalidDates": [],
+    "errorMessage": "",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:42:12.228Z"
+  },
+  "aiSuggestions": {
+    "dct:title": "• Bio2RDF",
+    "title_raw": {
+      "suggestions": [
+        {
+          "value": "Bio2RDF",
+          "explanation": "Found in the narrative as the main title of the dataset."
+        }
+      ]
+    },
+    "dct:description": "• Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources.",
+    "description_raw": {
+      "suggestions": [
+        {
+          "value": "Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources.",
+          "explanation": "This description is provided in the overview section of the narrative."
+        }
+      ]
+    },
+    "dct:created": "• 2014-11-20",
+    "createdDate_raw": {
+      "suggestions": [
+        {
+          "value": "2014-11-20",
+          "explanation": "Found in the narrative as the creation date of the dataset."
+        }
+      ]
+    },
+    "dct:modified": "• 2014-09-15",
+    "modifiedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2014-09-15",
+          "explanation": "Found in the narrative as the last modification date of the dataset."
+        }
+      ]
+    },
+    "dct:issued": "• 2013-12-11",
+    "publishedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2013-12-11",
+          "explanation": "Found in the narrative as the publication date of the dataset."
+        }
+      ]
+    },
+    "dct:alternative": "• Linked Data Network for Bioinformatics",
+    "alternativeTitle_raw": {
+      "suggestions": [
+        {
+          "value": "Linked Data Network for Bioinformatics",
+          "explanation": "Found in the narrative as the expanded title of the dataset."
+        }
+      ]
+    },
+    "dcat:acronym": "• Bio2RDF",
+    "acronym_raw": {
+      "suggestions": [
+        {
+          "value": "Bio2RDF",
+          "explanation": "Found in the narrative as the acronym for the dataset."
+        }
+      ]
+    },
+    "dcat:landingPage": "• http://bio2rdf.org",
+    "homepageURL_raw": {
+      "suggestions": [
+        {
+          "value": "http://bio2rdf.org",
+          "explanation": "Found in the narrative as the main landing page for the dataset."
+        }
+      ]
+    },
+    "rdfs:seeAlso": "• https://www.bio2rdf.org/about",
+    "otherPages_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.bio2rdf.org/about",
+          "explanation": "Found in the narrative as a page with additional documentation and project information."
+        }
+      ]
+    },
+    "dct:license": "• https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_raw": {
+      "suggestions": [
+        {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "explanation": "Found in the narrative stating that Bio2RDF is distributed under the Creative Commons Attribution–ShareAlike 4.0 International License."
+        }
+      ]
+    },
+    "dcat:version": "• 1.0",
+    "version_raw": {
+      "suggestions": [
+        {
+          "value": "1.0",
+          "explanation": "Found in the narrative as the version of the dataset."
+        }
+      ]
+    },
+    "cito:citesAsAuthority": "• http://www2007.org/workshop-W2.php\n• https://www.nature.com/articles/s41597-021-00797-y/figures/1",
+    "primaryReferenceDocument_raw": {
+      "suggestions": [
+        {
+          "value": "http://www2007.org/workshop-W2.php",
+          "explanation": "Found in the narrative as a citation for the publication describing Bio2RDF."
+        },
+        {
+          "value": "https://www.nature.com/articles/s41597-021-00797-y/figures/1",
+          "explanation": "Another reference document related to Bio2RDF found in the narrative."
+        }
+      ]
+    },
+    "void:description": "• https://bio2rdf.org/",
+    "metaGraph_raw": {
+      "suggestions": [
+        {
+          "value": "https://bio2rdf.org/",
+          "explanation": "Found in the narrative as the URL for the project's visualization and schema graph representation."
+        }
+      ]
+    },
+    "void:triple": "• over 1 million biological entities\n• tens of millions of RDF triples\n• 411,912 contextual metadata statements\n• 69,000 biological identifiers",
+    "statistics_raw": {
+      "suggestions": [
+        {
+          "value": "over 1 million biological entities",
+          "explanation": "Found in the narrative as part of the internal statistics of the dataset."
+        },
+        {
+          "value": "tens of millions of RDF triples",
+          "explanation": "Found in the narrative as part of the internal statistics of the dataset."
+        },
+        {
+          "value": "411,912 contextual metadata statements",
+          "explanation": "Found in the narrative as part of the internal statistics of the dataset."
+        },
+        {
+          "value": "69,000 biological identifiers",
+          "explanation": "Found in the narrative as part of the internal statistics of the dataset."
+        }
+      ]
+    },
+    "void:vocabulary": "• https://schema.org/\n• https://www.w3.org/TR/void/\n• http://www.w3.org/2001/XMLSchema#\n• http://www.w3.org/2000/01/rdf-schema#\n• http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "vocabulariesUsed_raw": {
+      "suggestions": [
+        {
+          "value": "https://schema.org/",
+          "explanation": "Found in the narrative as one of the linked data vocabularies used."
+        },
+        {
+          "value": "https://www.w3.org/TR/void/",
+          "explanation": "Found in the narrative as one of the linked data vocabularies used."
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema#",
+          "explanation": "Found in the narrative as one of the linked data vocabularies used."
+        },
+        {
+          "value": "http://www.w3.org/2000/01/rdf-schema#",
+          "explanation": "Found in the narrative as one of the linked data vocabularies used."
+        },
+        {
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+          "explanation": "Found in the narrative as one of the linked data vocabularies used."
+        }
+      ]
+    },
+    "dcat:servesDataset": "• https://github.com/bio2rdf/bio2rdf-scripts",
+    "restAPI_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/bio2rdf/bio2rdf-scripts",
+          "explanation": "Found in the narrative as the REST API for Bio2RDF."
+        }
+      ]
+    },
+    "void:sparqlEndpoint": "• {\"endpointURL\": \"http://bio2rdf.org/sparql\", \"title\": \"Bio2RDF Query Service\", \"endpointDescription\": \"The Bio2RDF SPARQL endpoint enables federated queries across all biomedical subgraphs, supporting cross-domain discovery and reasoning.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+    "sparqlEndpoint_raw": {
+      "suggestions": [
+        {
+          "value": "{\"endpointURL\": \"http://bio2rdf.org/sparql\", \"title\": \"Bio2RDF Query Service\", \"endpointDescription\": \"The Bio2RDF SPARQL endpoint enables federated queries across all biomedical subgraphs, supporting cross-domain discovery and reasoning.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+          "explanation": "Found in the narrative as the SPARQL endpoint information."
+        }
+      ]
+    },
+    "mod:sampleQueries": "• https://github.com/bio2rdf/bio2rdf-scripts/wiki/Query-repository",
+    "exampleQueries_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/bio2rdf/bio2rdf-scripts/wiki/Query-repository",
+          "explanation": "Found in the narrative as the location for example SPARQL queries."
+        }
+      ]
+    },
+    "dcat:keyword": "• knowledge integration\n• linked data\n• ontology\n• semantic web\n• bioinformatics database\n• data interoperability",
+    "keywords_raw": {
+      "suggestions": [
+        {
+          "value": "knowledge integration",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        },
+        {
+          "value": "linked data",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        },
+        {
+          "value": "ontology",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        },
+        {
+          "value": "semantic web",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        },
+        {
+          "value": "bioinformatics database",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        },
+        {
+          "value": "data interoperability",
+          "explanation": "Found in the narrative as a keyword associated with Bio2RDF."
+        }
+      ]
+    },
+    "dcat:theme": "• http://dbpedia.org/resource/Bioinformatics\n• http://dbpedia.org/resource/Semantic_Web",
+    "category_raw": {
+      "suggestions": [
+        {
+          "value": "http://dbpedia.org/resource/Bioinformatics",
+          "explanation": "Found in the narrative as a topical classification for Bio2RDF."
+        },
+        {
+          "value": "http://dbpedia.org/resource/Semantic_Web",
+          "explanation": "Found in the narrative as a topical classification for Bio2RDF."
+        }
+      ]
+    },
+    "dct:language": "• en\n• it\n• fr",
+    "language_raw": {
+      "suggestions": [
+        {
+          "value": "en",
+          "explanation": "Found in the narrative as the primary language supported by Bio2RDF."
+        },
+        {
+          "value": "it",
+          "explanation": "Found in the narrative as one of the languages supported by Bio2RDF."
+        },
+        {
+          "value": "fr",
+          "explanation": "Found in the narrative as one of the languages supported by Bio2RDF."
+        }
+      ]
+    },
+    "void:uriRegexPattern": "• http://bio2rdf.org/{namespace}:{identifier}",
+    "iriTemplate_raw": {
+      "suggestions": [
+        {
+          "value": "http://bio2rdf.org/{namespace}:{identifier}",
+          "explanation": "Found in the narrative as the URI pattern followed by all entities."
+        }
+      ]
+    },
+    "void:linkset": "• {\"target\": \"http://wikidata.org\", \"triples\": \"1240\"}\n• {\"target\": \"http://dbpedia.org\", \"triples\": \"963\"}",
+    "linkedResources_raw": {
+      "suggestions": [
+        {
+          "value": "{\"target\": \"http://wikidata.org\", \"triples\": \"1240\"}",
+          "explanation": "Found in the narrative as the number of triples linked to Wikidata."
+        },
+        {
+          "value": "{\"target\": \"http://dbpedia.org\", \"triples\": \"963\"}",
+          "explanation": "Found in the narrative as the number of triples linked to DBpedia."
+        }
+      ]
+    },
+    "void:exampleResource": "• {\"title\": \"PubMed article 1\", \"description\": \"PubMed article 12728276\", \"accessURL\": \"http://bio2rdf.org/pubmed:12728276\"}",
+    "exampleResource_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"PubMed article 1\", \"description\": \"PubMed article 12728276\", \"accessURL\": \"http://bio2rdf.org/pubmed:12728276\"}",
+          "explanation": "Found in the narrative as an example resource from Bio2RDF."
+        }
+      ]
+    },
+    "dct:accessRights": "• The dataset is open access and freely available for academic research, reuse, and integration under open data principles.",
+    "accessStatement_raw": {
+      "suggestions": [
+        {
+          "value": "The dataset is open access and freely available for academic research, reuse, and integration under open data principles.",
+          "explanation": "Found in the narrative describing the access rights of the dataset."
+        }
+      ]
+    },
+    "prov:hadPrimarySource": "• Heterogeneous life science databases",
+    "source_raw": {
+      "suggestions": [
+        {
+          "value": "Heterogeneous life science databases",
+          "explanation": "Found in the narrative as the source of data for the Bio2RDF knowledge graph."
+        }
+      ]
+    },
+    "void:uriSpace": "• http://bio2rdf.org/",
+    "nameSpace_raw": {
+      "suggestions": [
+        {
+          "value": "http://bio2rdf.org/",
+          "explanation": "Found in the narrative as the common namespace for all entities."
+        }
+      ]
+    },
+    "prov:qualifiedAttribution": "• publisher: Bio2RDF Consortium (info@bio2rdf.org)\n• custodian: Michel Dumontier (michel.dumontier@bio2rdf.org)",
+    "roles_raw": {
+      "suggestions": [
+        {
+          "value": "publisher: Bio2RDF Consortium (info@bio2rdf.org)",
+          "explanation": "Found in the narrative stating that Bio2RDF is developed and published by the Bio2RDF Consortium.",
+          "roleData": {
+            "roleType": "publisher",
+            "mode": "name_mbox",
+            "name": "Bio2RDF Consortium",
+            "email": "info@bio2rdf.org"
+          }
+        },
+        {
+          "value": "custodian: Michel Dumontier (michel.dumontier@bio2rdf.org)",
+          "explanation": "Found in the narrative attributing curation of the dataset to Michel Dumontier.",
+          "roleData": {
+            "roleType": "custodian",
+            "mode": "name_mbox",
+            "name": "Michel Dumontier",
+            "email": "michel.dumontier@bio2rdf.org"
+          }
+        }
+      ]
+    },
+    "dcat:distribution": "• {\"title\": \"Bio2RDF dataset files\", \"description\": \"Bio2RDF download and documentation page\", \"mediaType\": \"link\", \"downloadURL\": \"http://bio2rdf.org\", \"accessURL\": \"https://zenodo.org/record/4702544\"}",
+    "distributions_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"Bio2RDF dataset files\", \"description\": \"Bio2RDF download and documentation page\", \"mediaType\": \"link\", \"downloadURL\": \"http://bio2rdf.org\", \"accessURL\": \"https://zenodo.org/record/4702544\"}",
+          "explanation": "Found distribution details in the narrative."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "submissionType": "llm",
+    "hasValidationErrors": false,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:42:12.230Z",
+    "formOpenedAt": "2025-10-29T13:35:11.488Z",
+    "formSubmittedAt": "2025-10-29T13:42:12.228Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 421,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:35:11.489Z",
+        "endTime": "2025-10-29T13:42:12.230Z",
+        "durationSeconds": 421
+      }
+    ],
+    "totalTimeSpentSeconds": 421,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+  "timestamp": "2025-10-29T13:42:12.230Z",
+  "exportDate": "2025-10-29T13:47:48.289Z"
+}

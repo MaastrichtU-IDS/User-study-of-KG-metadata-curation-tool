@@ -1,0 +1,166 @@
+{
+  "name": "QuoteKG",
+  "dcat:acronym": [
+    "QKG"
+  ],
+  "date": "2025-10-29T13:31:32.689Z",
+  "formData": {
+    "dct:identifier": [
+      "5229a36d-1aeb-432e-addd-ac3c081b54bc"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "QuoteKG",
+    "dct:description": "the first multilingual knowledge graph of quotes, designed to capture the quotes of public figures across languages and contexts",
+    "dct:created": "2019/11/20",
+    "dct:modified": [
+      "2021/09/15"
+    ],
+    "dct:issued": "2020/12/11",
+    "dct:alternative": [
+      "Quote Knowledge Graph"
+    ],
+    "dcat:acronym": [
+      "QKG"
+    ],
+    "dcat:landingPage": [
+      "https://www.quotekg.l3s.uni-hannover.de"
+    ],
+    "rdfs:seeAlso": [
+      "https://github.com/tkuculo/QuoteKG",
+      "https://zenodo.org/record/4702544"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Tin Kuculo",
+        "email": "Tin@hotmail.com",
+        "id": 1761744030840
+      },
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Simon Gottschalk",
+        "email": "simon@yahoo.com",
+        "id": 1761744062587
+      },
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "L3S Research Center at the Leibniz University of Hannover ",
+        "email": "contact@l3s.de",
+        "id": 1761744093966
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "QuoteKG dataset files",
+        "description": "Access to QuoteKG datasets, SPARQL endpoint, and documentation",
+        "mediaType": "link",
+        "downloadURL": "https://zenodo.org/record/4702544",
+        "accessURL": "https://www.quotekg.l3s.uni-hannover.de",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://www.wikiquote.org/)",
+      "http://quotekg.org/resource/"
+    ],
+    "void:description": [
+      "https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264"
+    ],
+    "dct:conformsTo": [
+      "http://www.w3.org/ns/dcat#Dataset",
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "void:triple": [
+      "10 million"
+    ],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/t-kuculo/QuoteKG"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://www.quotekg.l3s.uni-hannover.de/sparql",
+        "dct:identifier": "QuoteKG SPARQL endpoint",
+        "dct:title": "QuoteKG Query Service",
+        "dct:description": "The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE { ?quote a so:Quotation ; so:spokenByCharacter [ skos:prefLabel ?Person ] . } GROUP BY ?Person ORDER BY DESC(COUNT(?quote))"
+    ],
+    "dcat:keyword": [
+      "multilingual knowledge graph",
+      "quotations"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://dbpedia.org/resource/Digital_humanities",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:31:32.689Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761744692689"
+  },
+  "validationErrors": {
+    "missingFields": [],
+    "invalidDates": [],
+    "errorMessage": "",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:31:32.689Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": false,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:31:32.689Z",
+    "formOpenedAt": "2025-10-29T13:14:41.292Z",
+    "formSubmittedAt": "2025-10-29T13:31:32.689Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 1011,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:14:41.292Z",
+        "endTime": "2025-10-29T13:31:32.689Z",
+        "durationSeconds": 1011
+      }
+    ],
+    "totalTimeSpentSeconds": 1011,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:31:32.689Z",
+  "exportDate": "2025-10-29T13:31:37.687Z"
+}

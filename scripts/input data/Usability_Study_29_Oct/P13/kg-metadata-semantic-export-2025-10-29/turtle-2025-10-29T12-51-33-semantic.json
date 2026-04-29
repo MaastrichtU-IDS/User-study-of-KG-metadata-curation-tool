@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T12:51:33.359Z",
+  "formData": {
+    "turtleContent": "@prefix ex:  <http://example.org/> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix foaf: <http://xmlns.com/foaf/0.1/>\n@prefix void:<http://rdfs.org/ns/void#>\n# A dataset\nex:Dataset1 a dct:Dataset ;\n    dct:title  \"Wikidata\"@en\n    dct:identifier \"https://www.wikidata.org/entity/Q2013\"^^xsd:string\n    dct:creator ex:P13 ;\n    dct:alternative  \" \" @en;\n    dct:description \"Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others. Wikidata also provides support to many other sites and services beyond just Wikimedia projects! The content of Wikidata is available under a free license, exported using standard formats, and can be interlinked to other open data sets on the linked data web.\"@en;\n    dct:dateCreated \"2021-09-10\"^^xsd:date ;\n    dct:subject \"Environmental Data\" ;\n    rdfs:seeAlso <https://www.wikidata.org/wiki/Wikidata:Introduction>;\n \tfoaf:page <https://www.wikidata.org>;\n    void:vocabulary \"\"@\n    dct:created  \"2012 -10 -29 T15 :30:00 Z\"^^xsd:dateTimeStamp.\n\n\n# The person who created it\nex:P13 a dct:Agent ;\n    foaf:name \"Lucas_Werkmeister\" .\n    foaf:mbox  <mailto:lucas.werkmeister@wikimedia.de>\n# A related publication",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T12:51:33.359Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "submissionId": "kg-meta-1761742293359"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 5,
+          "column": "unknown",
+          "message": "Expected declaration to end with a dot on line 5."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 1403,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:36:30.104Z",
+    "formSubmittedAt": "2025-10-29T12:51:33.359Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 903,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:36:30.104Z",
+        "endTime": "2025-10-29T12:51:33.359Z",
+        "durationSeconds": 903
+      }
+    ],
+    "totalTimeSpentSeconds": 903,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T12:51:33.359Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+  "timestamp": "2025-10-29T12:51:33.359Z",
+  "exportDate": "2025-10-29T13:19:39.314Z"
+}

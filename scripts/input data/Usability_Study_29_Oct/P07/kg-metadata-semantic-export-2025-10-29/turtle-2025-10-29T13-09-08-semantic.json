@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:09:08.081Z",
+  "formData": {
+    "turtleContent": "@prefix ex:  <http://example.org/> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix qudt: <http://qudt.org/schema/qudt/> .\n@prefix foaf: <http://xmlns.com/foaf/0.1/page> .\n@prefix prov: <https://standards.iso.org/iso/19115/resources/Codelists/gml/CI_RoleCode.xml> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#seeAlso> .\n\nex:Dataset1 a dct:Dataset ;\n    dct:title \"Quote Knowledge Graph\" ;\n    qudt:acronym \"QKG\" ;\n    dct:description \"QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources. \" ;\n    foaf:page \"https://www.quotekg.l3s.uni-hannover.de\" ;\n    rdfs:seeAlso \"https://github.com/tkuculo/QuoteKG\", \"https://zenodo.org/record/4702544\" ;\n    dct:created \"2019-11-20\"^^xsd:date ;\n    dct:modified \"2021-09-20\"^^xsd:date ;",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:09:08.081Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+    "submissionId": "kg-meta-1761743348082"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 17,
+          "column": "unknown",
+          "message": "Expected entity but got eof on line 17."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 912,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:56:43.770Z",
+    "formSubmittedAt": "2025-10-29T13:09:08.081Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 744,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:56:43.770Z",
+        "endTime": "2025-10-29T13:09:08.081Z",
+        "durationSeconds": 744
+      }
+    ],
+    "totalTimeSpentSeconds": 744,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:09:08.081Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+  "timestamp": "2025-10-29T13:09:08.081Z",
+  "exportDate": "2025-10-29T13:28:35.953Z"
+}

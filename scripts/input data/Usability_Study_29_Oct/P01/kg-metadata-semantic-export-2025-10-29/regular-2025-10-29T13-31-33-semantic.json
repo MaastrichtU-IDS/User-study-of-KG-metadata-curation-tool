@@ -1,0 +1,139 @@
+{
+  "name": "YAGO",
+  "dcat:acronym": [
+    "YAGO"
+  ],
+  "date": "2025-10-29T13:31:33.943Z",
+  "formData": {
+    "dct:identifier": [
+      "494079e9-6c12-4c02-8f0a-7be45af1ddb7"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "YAGO",
+    "dct:description": "YAGO is a large-scale semantic knowledge graph (KG) and ontology that unites factual information from major reference sources including Wikipedia (https://www.wikipedia.org/), WordNet (https://wordnet.princeton.edu/), Wikidata (https://www.wikidata.org/), and GeoNames (https://www.geonames.org/).",
+    "dct:created": "2012/10/29",
+    "dct:modified": [
+      "2013/09/15"
+    ],
+    "dct:issued": "2013/05/23",
+    "dct:alternative": [
+      "Yet Another Great Ontology"
+    ],
+    "dcat:acronym": [
+      "YAGO"
+    ],
+    "dcat:landingPage": [
+      "http://yago-knowledge.org"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.mpi-inf.mpg.de/home"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Fabian M.",
+        "email": "FabianM@gmail.com",
+        "id": 1761744356307
+      },
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "Max-Planck-Institut für Informatik",
+        "email": "library@mpi-sb.mpg.de",
+        "id": 1761744403821
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "void:description": [
+      "https://yagoknowledge.org/"
+    ],
+    "dct:conformsTo": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "void:triple": [],
+    "void:vocabulary": [
+      "http://yago-knowledge.org/resource/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/2004/02/skos/core#"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "Ontology",
+      "Knowledge Extraction",
+      "Wikipedia",
+      "WordNet"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "English, German, French, Dutch, Italian, Spanish, Romanian, Polish, and Arabic",
+      "en,de,fr,nl,it,es,ro,pl,ar",
+      "en, de, fr, nl, it, es, ro, pl, ar",
+      "\"en\"",
+      "en",
+      "de, fr",
+      "de",
+      "fr",
+      "nl",
+      "it",
+      "es",
+      "ro",
+      "pl",
+      "ar"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:31:33.943Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+    "submissionId": "kg-meta-1761744693943"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution",
+      "Access Statement"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution, Access Statement",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:31:33.942Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:31:33.943Z",
+    "formOpenedAt": "2025-10-29T13:16:04.626Z",
+    "formSubmittedAt": "2025-10-29T13:31:33.942Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 929,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:16:04.626Z",
+        "endTime": "2025-10-29T13:31:33.943Z",
+        "durationSeconds": 929
+      }
+    ],
+    "totalTimeSpentSeconds": 929,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+  "timestamp": "2025-10-29T13:31:33.943Z",
+  "exportDate": "2025-10-29T13:47:48.288Z"
+}

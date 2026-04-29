@@ -1,0 +1,43 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:01:45.712Z",
+  "formData": {
+    "turtleContent": "@prefix dcat: <http://www.w3.org/ns/dcat#> .\n@prefix dct:  <http://purl.org/dc/terms/> .\n@prefix void: <http://rdfs.org/ns/void#> .\n@prefix owl:  <http://www.w3.org/2002/07/owl#> .\n@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n<https://www.quotekg.l3s.uni-hannover.de> \n    a dcat:Dataset ;\n    dct:title \"QuoteKG\" ;\n    dct:description \"The first multilingual knowledge graph of quotes, designed to capture the quotes of public figures across languages and contexts.\" ;\n    dct:creator \"Tin Kuculo\", \"Simon Gottschalk\" ;\n    dct:publisher \"L3S Research Center, Leibniz University of Hannover\" ;\n    dcat:landingPage <https://www.quotekg.l3s.uni-hannover.de> ;\n    dct:accessRights <http://purl.org/dc/terms/accessRights/open> .",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:01:45.712Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "submissionId": "kg-meta-1761742905712"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 790,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:54:40.211Z",
+    "formSubmittedAt": "2025-10-29T13:01:45.712Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 426,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:54:40.211Z",
+        "endTime": "2025-10-29T13:01:45.712Z",
+        "durationSeconds": 426
+      }
+    ],
+    "totalTimeSpentSeconds": 426,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:01:45.712Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "timestamp": "2025-10-29T13:01:45.712Z",
+  "exportDate": "2025-10-29T13:18:50.687Z"
+}

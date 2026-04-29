@@ -1,0 +1,106 @@
+{
+  "name": "Bio2RDF",
+  "dcat:acronym": [
+    "Bio2RDF"
+  ],
+  "date": "2025-10-29T13:22:17.874Z",
+  "formData": {
+    "dct:identifier": [
+      "7c52ec64-e0b7-476b-b098-dba91c2480fb"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources",
+    "dct:created": "2014/11/20",
+    "dct:modified": [],
+    "dct:issued": "2014/11/20",
+    "dct:alternative": [
+      "BIO2RDF Linked Data Network for Bioinformatics"
+    ],
+    "dcat:acronym": [
+      "Bio2RDF"
+    ],
+    "dcat:landingPage": [
+      "https://bio2rdf.org/"
+    ],
+    "rdfs:seeAlso": [
+      "https://github.com/bio2rdf/bio2rdf-scripts/wiki/Query-repository"
+    ],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [
+      "https://zenodo.org/record/4702544"
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "http://www.w3.org/ns/dcat#Dataset",
+      "http://rdfs.org/ns/void#Dataset"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "knowledge integration",
+      "linked data",
+      "ontology",
+      "semantic web",
+      "bioinformatics database"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "fr",
+      "it"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:22:17.874Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761744137874"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution",
+      "Access Statement"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution, Access Statement",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:22:17.873Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:22:17.874Z",
+    "formOpenedAt": "2025-10-29T13:14:40.212Z",
+    "formSubmittedAt": "2025-10-29T13:22:17.874Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 458,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:14:40.212Z",
+        "endTime": "2025-10-29T13:22:17.874Z",
+        "durationSeconds": 458
+      }
+    ],
+    "totalTimeSpentSeconds": 458,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:22:17.874Z",
+  "exportDate": "2025-10-29T13:37:51.723Z"
+}

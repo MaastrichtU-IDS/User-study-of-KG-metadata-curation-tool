@@ -1,0 +1,118 @@
+{
+  "name": "Speech for medical research",
+  "dcat:acronym": [
+    "MedSpeech"
+  ],
+  "date": "2025-10-29T12:59:51.962Z",
+  "formData": {
+    "dct:identifier": [
+      "7b5e233c-00cd-4f44-9631-aebac815fe3b"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Speech for medical research",
+    "dct:description": "Dataset consists of speech audio recordings and demographic data.",
+    "dct:created": "2025-10-30",
+    "dct:modified": [],
+    "dct:issued": "2025-11-01",
+    "dct:alternative": [
+      "Medical Speech"
+    ],
+    "dcat:acronym": [
+      "MedSpeech"
+    ],
+    "dcat:landingPage": [
+      "https://speechforhealthcare.com"
+    ],
+    "rdfs:seeAlso": [],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "https://opensource.org/licenses/MIT",
+    "dcat:version": "alpha_0.0.1",
+    "dcat:distribution": [
+      {
+        "title": "SpeechForHealthcare_v_alpha_0.0.1",
+        "description": "Data from preliminary study.",
+        "mediaType": "link",
+        "downloadURL": "http://bio2rdf.org",
+        "accessURL": "https://zenodo.org/record/4702544",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://speechforhealthcare.zenodo.org"
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "speech",
+      "speech analysis",
+      "healthcare"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "pl"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://purl.org/dc/terms/accessRights/open",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T12:59:51.962Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "submissionId": "kg-meta-1761742791962"
+  },
+  "validationErrors": {
+    "missingFields": [],
+    "invalidDates": [],
+    "errorMessage": "",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T12:59:51.962Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": false,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T12:59:51.962Z",
+    "formOpenedAt": "2025-10-29T12:49:45.725Z",
+    "formSubmittedAt": "2025-10-29T12:59:51.962Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 606,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:49:45.725Z",
+        "endTime": "2025-10-29T12:59:51.962Z",
+        "durationSeconds": 606
+      }
+    ],
+    "totalTimeSpentSeconds": 606,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+  "timestamp": "2025-10-29T12:59:51.962Z",
+  "exportDate": "2025-10-29T13:29:31.602Z"
+}

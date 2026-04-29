@@ -1,0 +1,156 @@
+{    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources. ",
+    "dct:created": "2014-11-20",
+    "dct:modified": [
+      "2014-09-15"
+    ],
+    "dct:issued": "2013-12-11",
+    "dct:alternative": [
+      "Linked Data Network for Bioinformatics"
+    ],
+    "dcat:acronym": [
+      "Bio2RDF"
+    ],
+    "dcat:landingPage": [
+      "http://bio2rdf.org"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.bio2rdf.org/about"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "publisher",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Bio2RDF Consortium",
+        "email": "info@bio2rdf.org"
+      },
+      {
+        "roleType": "creator",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Michel Dumontier",
+        "email": "michel.dumontier@bio2rdf.org"
+      }
+    ],
+    "dct:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "Bio2RDF dataset files",
+        "description": "Bio2RDF download and documentation page",
+        "mediaType": "link",
+        "downloadURL": "http://bio2rdf.org",
+        "accessURL": "https://zenodo.org/record/4702544",
+        "byteSize": "",
+        "license": "",
+        "rights": "",
+        "accessService": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "http://www2007.org/workshop-W2.php"
+    ],
+    "void:description": [
+      "https://bio2rdf.org/"
+    ],
+    "dct:conformsTo": ["http://www.w3.org/1999/02/22-rdf-syntax-ns#"],
+    "void:triple": [
+      "tens of millions of RDF triples"
+    ],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/bio2rdf/bio2rdf-scripts"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "http://bio2rdf.org/sparql",
+        "dct:identifier": "Bio2RDF SPARQL endpoint",
+        "dct:title": "Bio2RDF Query Service",
+        "dct:description": "The Bio2RDF SPARQL endpoint enables federated queries across all biomedical subgraphs, supporting cross-domain discovery and reasoning.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "https://github.com/bio2rdf/bio2rdf-scripts/wiki/Query-repository"
+    ],
+    "dcat:keyword": [
+      "knowledge integration",
+      "linked data",
+      "ontology",
+      "semantic web",
+      "bioinformatics database",
+      "data interoperability"
+    ],
+    "dcat:theme": [
+      "http://dbpedia.org/resource/Bioinformatics",
+      "http://dbpedia.org/resource/Semantic_Web"
+    ],
+    "dct:references": [
+      "https://www.nature.com/articles/s41597-021-00797-y/figures/1"
+    ],
+    "dct:language": [
+      "en",
+      "it",
+      "fr"
+    ],
+    "void:uriRegexPattern": [
+      "http://bio2rdf.org/{namespace}:{identifier}"
+    ],
+    "void:linkset": [
+      {
+        "target": "http://wikidata.org",
+        "triples": "1240"
+      },
+      {
+        "target": "http://dbpedia.org",
+        "triples": "963"
+      }
+    ],
+    "void:exampleResource": [
+      {
+        "dct:title": "PubMed article 1",
+        "dct:description": "PubMed article 12728276",
+        "adms:status": "",
+        "dcat:accessURL": "http://bio2rdf.org/pubmed:12728276"
+      }
+    ],
+    "dct:accessRights": "http://purl.org/dc/terms/accessRights/open",
+    "prov:hadPrimarySource": [
+    "https://www.ncbi.nlm.nih.gov/gene/",
+    "https://www.omim.org/",
+    "http://obofoundry.org/",
+    "https://www.genome.jp/kegg/ligand.html",
+    "http://www.informatics.jax.org/",
+    "https://www.genenames.org/",
+    "https://www.rcsb.org/",
+    "https://www.ebi.ac.uk/chebi/",
+    "https://www.uniprot.org/",
+    "https://reactome.org/",
+    "https://prosite.expasy.org/",
+    "https://pubmed.ncbi.nlm.nih.gov/",
+    "https://www.ncbi.nlm.nih.gov/genbank/",
+    "https://pubchem.ncbi.nlm.nih.gov/"
+
+    ],
+    "void:uriSpace": [
+      "http://bio2rdf.org/"
+    ] }

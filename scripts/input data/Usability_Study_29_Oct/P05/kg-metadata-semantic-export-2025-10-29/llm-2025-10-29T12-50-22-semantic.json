@@ -1,0 +1,483 @@
+{
+  "name": "Quote Knowledge Graph",
+  "dcat:acronym": [
+    "QKG"
+  ],
+  "date": "2025-10-29T12:50:22.859Z",
+  "formData": {
+    "dct:identifier": [
+      "5efb8caa-6c44-4593-a9ad-9574ad49e394"
+    ],
+    "rdf:type": [
+      "dcat:Dataset"
+    ],
+    "dct:title": "Quote Knowledge Graph",
+    "dct:description": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+    "dct:created": "2025-10-29",
+    "dct:modified": [
+      "2025/10/29"
+    ],
+    "dct:issued": "2025-10-29",
+    "dct:alternative": [
+      "Quote Knowledge Graph"
+    ],
+    "dcat:acronym": [
+      "QKG"
+    ],
+    "dcat:landingPage": [
+      "https://www.quotekg.l3s.uni-hannover.de"
+    ],
+    "rdfs:seeAlso": [
+      "https://github.com/tkuculo/QuoteKG",
+      "https://zenodo.org/record/4702544"
+    ],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "knowledge graph",
+      "quotes",
+      "cross-lingual alignment",
+      "open data",
+      "text mining",
+      "knowledge graph"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "it",
+      "de",
+      "hr",
+      "cy"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T12:50:22.859Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761742222859"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution",
+      "Primary Reference Document",
+      "Access Statement",
+      "Vocabularies Used"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution, Primary Reference Document, Access Statement, Vocabularies Used",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T12:50:22.858Z"
+  },
+  "aiSuggestions": {
+    "dct:title": "• QuoteKG\n• Quote Knowledge Graph",
+    "title_raw": {
+      "suggestions": [
+        {
+          "value": "QuoteKG",
+          "explanation": "Found in narrative as the main title of the dataset."
+        },
+        {
+          "value": "Quote Knowledge Graph",
+          "explanation": "Expanded title mentioned in the overview."
+        }
+      ]
+    },
+    "dct:description": "• QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+    "description_raw": {
+      "suggestions": [
+        {
+          "value": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+          "explanation": "This is the main description provided in the narrative."
+        }
+      ]
+    },
+    "dct:created": "• 2019-11-20",
+    "createdDate_raw": {
+      "suggestions": [
+        {
+          "value": "2019-11-20",
+          "explanation": "Date of creation mentioned in the narrative."
+        }
+      ]
+    },
+    "dct:modified": "• 2021-09-15",
+    "modifiedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2021-09-15",
+          "explanation": "Last modified date mentioned in the narrative."
+        }
+      ]
+    },
+    "dct:issued": "• 2020-12-11",
+    "publishedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2020-12-11",
+          "explanation": "Date of publication mentioned in the narrative."
+        }
+      ]
+    },
+    "dct:alternative": "• Quote Knowledge Graph",
+    "alternativeTitle_raw": {
+      "suggestions": [
+        {
+          "value": "Quote Knowledge Graph",
+          "explanation": "Expanded title mentioned in the overview."
+        }
+      ]
+    },
+    "dcat:acronym": "• QKG",
+    "acronym_raw": {
+      "suggestions": [
+        {
+          "value": "QKG",
+          "explanation": "Acronym for the dataset mentioned in the overview."
+        }
+      ]
+    },
+    "dcat:landingPage": "• https://www.quotekg.l3s.uni-hannover.de",
+    "homepageURL_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.quotekg.l3s.uni-hannover.de",
+          "explanation": "Main landing page for the dataset provided in the narrative."
+        }
+      ]
+    },
+    "rdfs:seeAlso": "• https://github.com/tkuculo/QuoteKG\n• https://zenodo.org/record/4702544",
+    "otherPages_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/tkuculo/QuoteKG",
+          "explanation": "Additional project materials mentioned."
+        },
+        {
+          "value": "https://zenodo.org/record/4702544",
+          "explanation": "Another relevant page for the dataset."
+        }
+      ]
+    },
+    "dct:license": "• https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_raw": {
+      "suggestions": [
+        {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "explanation": "License information provided in the narrative."
+        }
+      ]
+    },
+    "dcat:version": "• 1.0",
+    "version_raw": {
+      "suggestions": [
+        {
+          "value": "1.0",
+          "explanation": "Version of the dataset mentioned in the narrative."
+        }
+      ]
+    },
+    "cito:citesAsAuthority": "• https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes",
+    "primaryReferenceDocument_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes",
+          "explanation": "Primary reference for the dataset mentioned in the narrative."
+        }
+      ]
+    },
+    "void:description": "• https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264",
+    "metaGraph_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264",
+          "explanation": "Link to the meta graph illustration provided in the narrative."
+        }
+      ]
+    },
+    "void:triple": "• 10 million RDF triples\n• 1 million quotes\n• 55 languages\n• 69,000 public figures\n• 38,931 quotes with multilingual mentions\n• 13,104 misattributed quotes",
+    "statistics_raw": {
+      "suggestions": [
+        {
+          "value": "10 million RDF triples",
+          "explanation": "Total number of triples mentioned in the narrative."
+        },
+        {
+          "value": "1 million quotes",
+          "explanation": "Total number of quotes mentioned in the narrative."
+        },
+        {
+          "value": "55 languages",
+          "explanation": "Number of languages represented in the dataset."
+        },
+        {
+          "value": "69,000 public figures",
+          "explanation": "Number of public figures associated with the quotes."
+        },
+        {
+          "value": "38,931 quotes with multilingual mentions",
+          "explanation": "Number of quotes with multilingual mentions."
+        },
+        {
+          "value": "13,104 misattributed quotes",
+          "explanation": "Number of misattributed quotes mentioned."
+        }
+      ]
+    },
+    "void:vocabulary": "• https://schema.org/\n• https://www.w3.org/TR/void/\n• http://www.w3.org/2001/XMLSchema#\n• http://www.w3.org/2000/01/rdf-schema#\n• http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "vocabulariesUsed_raw": {
+      "suggestions": [
+        {
+          "value": "https://schema.org/",
+          "explanation": "First vocabulary mentioned in the narrative."
+        },
+        {
+          "value": "https://www.w3.org/TR/void/",
+          "explanation": "Second vocabulary mentioned in the narrative."
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema#",
+          "explanation": "Third vocabulary mentioned in the narrative."
+        },
+        {
+          "value": "http://www.w3.org/2000/01/rdf-schema#",
+          "explanation": "Fourth vocabulary mentioned in the narrative."
+        },
+        {
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+          "explanation": "Fifth vocabulary mentioned in the narrative."
+        }
+      ]
+    },
+    "dcat:servesDataset": "• https://github.com/t-kuculo/QuoteKG",
+    "restAPI_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/t-kuculo/QuoteKG",
+          "explanation": "REST API endpoint mentioned in the narrative."
+        }
+      ]
+    },
+    "void:sparqlEndpoint": "• {\"endpointURL\": \"https://www.quotekg.l3s.uni-hannover.de/sparql\", \"title\": \"QuoteKG Query Service\", \"endpointDescription\": \"The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+    "sparqlEndpoint_raw": {
+      "suggestions": [
+        {
+          "value": "{\"endpointURL\": \"https://www.quotekg.l3s.uni-hannover.de/sparql\", \"title\": \"QuoteKG Query Service\", \"endpointDescription\": \"The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+          "explanation": "SPARQL endpoint information provided in the narrative."
+        }
+      ]
+    },
+    "mod:sampleQueries": "• SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE {?quote a so:Quotation ;so:spokenByCharacter [ skos:prefLabel ?Person ] .} GROUP BY ?Person ORDER BY DESC(COUNT(?quote)",
+    "exampleQueries_raw": {
+      "suggestions": [
+        {
+          "value": "SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE {?quote a so:Quotation ;so:spokenByCharacter [ skos:prefLabel ?Person ] .} GROUP BY ?Person ORDER BY DESC(COUNT(?quote)",
+          "explanation": "Example query provided in the narrative."
+        }
+      ]
+    },
+    "dcat:keyword": "• knowledge graph\n• quotes\n• cross-lingual alignment\n• open data\n• text mining",
+    "keywords_raw": {
+      "suggestions": [
+        {
+          "value": "knowledge graph",
+          "explanation": "First keyword mentioned in the narrative."
+        },
+        {
+          "value": "quotes",
+          "explanation": "Second keyword mentioned in the narrative."
+        },
+        {
+          "value": "cross-lingual alignment",
+          "explanation": "Third keyword mentioned in the narrative."
+        },
+        {
+          "value": "open data",
+          "explanation": "Fourth keyword mentioned in the narrative."
+        },
+        {
+          "value": "text mining",
+          "explanation": "Fifth keyword mentioned in the narrative."
+        }
+      ]
+    },
+    "dcat:theme": "• http://dbpedia.org/resource/Digital_humanities\n• http://dbpedia.org/resource/Semantic_Web\n• http://dbpedia.org/resource/Natural_language_processing",
+    "category_raw": {
+      "suggestions": [
+        {
+          "value": "http://dbpedia.org/resource/Digital_humanities",
+          "explanation": "Category related to digital humanities mentioned in the narrative."
+        },
+        {
+          "value": "http://dbpedia.org/resource/Semantic_Web",
+          "explanation": "Category related to semantic web mentioned in the narrative."
+        },
+        {
+          "value": "http://dbpedia.org/resource/Natural_language_processing",
+          "explanation": "Category related to natural language processing mentioned in the narrative."
+        }
+      ]
+    },
+    "dct:language": "• mul\n• en\n• it\n• de\n• hr\n• cy",
+    "language_raw": {
+      "suggestions": [
+        {
+          "value": "mul",
+          "explanation": "Multilingual coverage mentioned in the narrative."
+        },
+        {
+          "value": "en",
+          "explanation": "English language mentioned in the narrative."
+        },
+        {
+          "value": "it",
+          "explanation": "Italian language mentioned in the narrative."
+        },
+        {
+          "value": "de",
+          "explanation": "German language mentioned in the narrative."
+        },
+        {
+          "value": "hr",
+          "explanation": "Croatian language mentioned in the narrative."
+        },
+        {
+          "value": "cy",
+          "explanation": "Welsh language mentioned in the narrative."
+        }
+      ]
+    },
+    "void:uriRegexPattern": "• http://quotekg.org/resource/{QuoteID}",
+    "iriTemplate_raw": {
+      "suggestions": [
+        {
+          "value": "http://quotekg.org/resource/{QuoteID}",
+          "explanation": "URI pattern for quotes mentioned in the narrative."
+        }
+      ]
+    },
+    "void:linkset": "• {\"target\": \"https://en.wikiquote.org\", \"triples\": \"\"}\n• {\"target\": \"https://www.wikidata.org/\", \"triples\": \"\"}\n• {\"target\": \"https://www.dbpedia.org/\", \"triples\": \"\"}",
+    "linkedResources_raw": {
+      "suggestions": [
+        {
+          "value": "{\"target\": \"https://en.wikiquote.org\", \"triples\": \"\"}",
+          "explanation": "Linked resource to Wikiquote mentioned in the narrative."
+        },
+        {
+          "value": "{\"target\": \"https://www.wikidata.org/\", \"triples\": \"\"}",
+          "explanation": "Linked resource to Wikidata mentioned in the narrative."
+        },
+        {
+          "value": "{\"target\": \"https://www.dbpedia.org/\", \"triples\": \"\"}",
+          "explanation": "Linked resource to DBpedia mentioned in the narrative."
+        }
+      ]
+    },
+    "void:exampleResource": "• {\"title\": \"Quote 1\", \"description\": \"Quote 1 refers to The only source of knowledge which is experience\", \"accessURL\": \"http://quotekg.org/resource/Q123456\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+    "exampleResource_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"Quote 1\", \"description\": \"Quote 1 refers to The only source of knowledge which is experience\", \"accessURL\": \"http://quotekg.org/resource/Q123456\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+          "explanation": "Example resource mentioned in the narrative."
+        }
+      ]
+    },
+    "dct:accessRights": "• Fully open-access under open data principles.",
+    "accessStatement_raw": {
+      "suggestions": [
+        {
+          "value": "Fully open-access under open data principles.",
+          "explanation": "Access rights mentioned in the narrative."
+        }
+      ]
+    },
+    "prov:hadPrimarySource": "• https://www.wikiquote.org/",
+    "source_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.wikiquote.org/",
+          "explanation": "Main source of data for the dataset mentioned in the narrative."
+        }
+      ]
+    },
+    "void:uriSpace": "• http://quotekg.org/resource/",
+    "nameSpace_raw": {
+      "suggestions": [
+        {
+          "value": "http://quotekg.org/resource/",
+          "explanation": "Namespace for entities in the dataset mentioned in the narrative."
+        }
+      ]
+    },
+    "prov:qualifiedAttribution": "• publisher: L3S Research Center (contact@l3s.de)\n• creator: Tin Kuculo (Tin@hotmail.com)\n• creator: Simon Gottschalk (simon@yahoo.com)",
+    "roles_raw": {
+      "suggestions": [
+        {
+          "value": "publisher: L3S Research Center (contact@l3s.de)",
+          "explanation": "Found 'published by the L3S Research Center' with email in narrative",
+          "roleData": {
+            "roleType": "publisher",
+            "mode": "name_mbox",
+            "name": "L3S Research Center",
+            "email": "contact@l3s.de"
+          }
+        },
+        {
+          "value": "creator: Tin Kuculo (Tin@hotmail.com)",
+          "explanation": "Found 'created by Tin Kuculo' with email in narrative",
+          "roleData": {
+            "roleType": "author",
+            "mode": "name_mbox",
+            "name": "Tin Kuculo",
+            "email": "Tin@hotmail.com"
+          }
+        },
+        {
+          "value": "creator: Simon Gottschalk (simon@yahoo.com)",
+          "explanation": "Found 'created by Simon Gottschalk' with email in narrative",
+          "roleData": {
+            "roleType": "author",
+            "mode": "name_mbox",
+            "name": "Simon Gottschalk",
+            "email": "simon@yahoo.com"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "submissionType": "llm",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T12:50:22.859Z",
+    "formOpenedAt": "2025-10-29T12:37:04.552Z",
+    "formSubmittedAt": "2025-10-29T12:50:22.858Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 798,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:37:04.552Z",
+        "endTime": "2025-10-29T12:50:22.859Z",
+        "durationSeconds": 798
+      }
+    ],
+    "totalTimeSpentSeconds": 798,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T12:50:22.859Z",
+  "exportDate": "2025-10-29T13:33:09.362Z"
+}

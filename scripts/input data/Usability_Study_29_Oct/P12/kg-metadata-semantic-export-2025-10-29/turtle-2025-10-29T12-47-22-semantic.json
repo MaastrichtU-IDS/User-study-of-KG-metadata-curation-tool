@@ -1,0 +1,43 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T12:47:22.498Z",
+  "formData": {
+    "turtleContent": "prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nprefix dcat: <http://www.w3.org/ns/dcat#>\nprefix void: <http://rdfs.org/ns/void#>\nprefix dct: <http://purl.org/dc/terms/title>\nprefix prov: <https://www.w3.org/ns/prov#>\nprefix foaf: <http://xmlns.com/foaf/0.1/>\nprefix : <http://bio2rdf.org/>\n\n: a dcat:Dataset, void:Dataset;\n  dct:title \"Bio2RDF\";\n  dct:alternative \"Bio2RDF\";\n  dct:description \"Bio2RDF is a large-scale bioinformatics knowledge base and Linked Open Data (LOD) project that transforms heterogeneous life science databases into interconnected Resource Description Framework (RDF) resources\"@en;\n  <http://qudt.org/schema/qudt/> \"Bio2RDF\";\n <http://xmlns.com/foaf/0.1/page> \"http://bio2rdf.org\";\n   <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.bio2rdf.org/about> ;\n   prov:qualifiedAttribution [\n       prov:agent [\n          a prov:Agent;\n          foaf:name \"Michel Dumontier\";\n          foaf:mbox \"michel.dumontier@bio2rdf.org\";\n       ] \n   ] \n\n.",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T12:47:22.498Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
+    "submissionId": "kg-meta-1761742042498"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 989,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:34:21.966Z",
+    "formSubmittedAt": "2025-10-29T12:47:22.497Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 781,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:34:21.966Z",
+        "endTime": "2025-10-29T12:47:22.497Z",
+        "durationSeconds": 781
+      }
+    ],
+    "totalTimeSpentSeconds": 781,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T12:47:22.498Z"
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0",
+  "timestamp": "2025-10-29T12:47:22.498Z",
+  "exportDate": "2025-10-29T13:20:34.432Z"
+}

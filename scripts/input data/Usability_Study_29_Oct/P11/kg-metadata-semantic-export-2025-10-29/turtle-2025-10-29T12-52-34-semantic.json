@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T12:52:34.675Z",
+  "formData": {
+    "turtleContent": "@prefix dcat:http://www.w3.org/ns/dcat #Dataset\n@prefix rdf:http://rdfs.org/ns/void #Dataset\n\n\ndct:identifier  Bio2RDF;\nrdf:type \ndct:title Bio2RDF\ndct:alternative \"Linked Data Network for Bioinformatics\"\nqudt:acronym Bio2RDF\ndct:description \"a semantic integration framework for bioinformatics data sources, converting public biological and chemical databases into RDF graphs\"\nfoaf:page \"https://bio2rdf.org/\"",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T12:52:34.675Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761742354675"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 1,
+          "column": "unknown",
+          "message": "Unexpected \"dcat:http://www.w3.org/ns/dcat\" on line 1."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 410,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:35:09.073Z",
+    "formSubmittedAt": "2025-10-29T12:52:34.674Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 1046,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:35:09.074Z",
+        "endTime": "2025-10-29T12:52:34.674Z",
+        "durationSeconds": 1046
+      }
+    ],
+    "totalTimeSpentSeconds": 1046,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T12:52:34.675Z"
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T12:52:34.675Z",
+  "exportDate": "2025-10-29T13:31:37.685Z"
+}

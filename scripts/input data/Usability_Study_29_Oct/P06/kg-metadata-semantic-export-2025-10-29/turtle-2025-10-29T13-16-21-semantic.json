@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:16:21.462Z",
+  "formData": {
+    "turtleContent": "@prefix dct: <http://bio2rdf.org/Resource> .\n@prefix title: <http://bio2rdf.org/title> .\n\ndct:Bio2RDF\n  dct:Graph\n  title: \"Bioinformatics knowledge base\" .\n  rdfs:description: \"Bio2RDF download and documentation page\"\n  rdfs:mediaType: \"link\"\n  rdfs:downloadURL: http://bio2rdf.org\n  accessURL: https://zenodo.org/record/4702544",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:16:21.462Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+    "submissionId": "kg-meta-1761743781462"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 6,
+          "column": "unknown",
+          "message": "Expected punctuation to follow \"http://bio2rdf.org/title\" on line 6."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 329,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T13:07:39.131Z",
+    "formSubmittedAt": "2025-10-29T13:16:21.462Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 522,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:07:39.131Z",
+        "endTime": "2025-10-29T13:16:21.462Z",
+        "durationSeconds": 522
+      }
+    ],
+    "totalTimeSpentSeconds": 522,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:16:21.462Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+  "timestamp": "2025-10-29T13:16:21.462Z",
+  "exportDate": "2025-10-29T13:19:42.649Z"
+}

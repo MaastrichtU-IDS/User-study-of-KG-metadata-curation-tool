@@ -1,0 +1,160 @@
+{
+  "name": "Bio2RDF",
+  "dcat:acronym": [
+    "Bio2RDF"
+  ],
+  "date": "2025-10-29T13:30:54.826Z",
+  "formData": {
+    "dct:identifier": [
+      "bd6ca9b7-114a-43a3-87a9-7a6892b4b73c"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "a semantic integration framework for bioinformatics data sources, converting public biological and chemical databases into RDF graphs.",
+    "dct:created": "2014-11-20",
+    "dct:modified": [
+      "2014/09/14"
+    ],
+    "dct:issued": "2013-12-11",
+    "dct:alternative": [
+      "Linked Data Network for Bioinformatics."
+    ],
+    "dcat:acronym": [
+      "Bio2RDF"
+    ],
+    "dcat:landingPage": [
+      "http://bio2rdf.org"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.bio2rdf.org/about"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Michel Dumontier",
+        "email": "michel.dumontier@bio2rdf.org",
+        "id": 1761744213969
+      }
+    ],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [
+      {
+        "title": "Bio2RDF dataset files",
+        "description": "Bio2RDF download and documentation page",
+        "mediaType": "link",
+        "downloadURL": "http://bio2rdf.org",
+        "accessURL": "https://zenodo.org/record/4702544",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      },
+      {
+        "title": "Bio2RDF Query Service”",
+        "description": "The Bio2RDF SPARQL endpoint enables federated queries across all biomedical subgraphs, supporting cross-domain discovery and reasoning.",
+        "mediaType": "",
+        "downloadURL": "",
+        "accessURL": "http://bio2rdf.org/sparql",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://www.bio2rdf.org",
+      "https://www.bio2rdf.org"
+    ],
+    "void:description": [
+      "https://bio2rdf.org/",
+      "https://bio2rdf.org/"
+    ],
+    "dct:conformsTo": [
+      "https://bio2rdf.org/"
+    ],
+    "void:triple": [
+      "tens of millions",
+      "tens of millions"
+    ],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "bioinformatics, semantic web, and life sciences integration,"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:30:54.826Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761744654826"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Access Statement"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Access Statement",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:30:54.826Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:30:54.826Z",
+    "formOpenedAt": "2025-10-29T13:17:21.461Z",
+    "formSubmittedAt": "2025-10-29T13:30:54.826Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 813,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:17:21.461Z",
+        "endTime": "2025-10-29T13:30:54.826Z",
+        "durationSeconds": 813
+      }
+    ],
+    "totalTimeSpentSeconds": 813,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:30:54.826Z",
+  "exportDate": "2025-10-31T10:25:36.877Z"
+}

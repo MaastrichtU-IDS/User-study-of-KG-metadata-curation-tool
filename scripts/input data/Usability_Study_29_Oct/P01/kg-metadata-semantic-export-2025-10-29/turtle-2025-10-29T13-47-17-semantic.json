@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:47:17.975Z",
+  "formData": {
+    "turtleContent": "x",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:47:17.975Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+    "submissionId": "kg-meta-1761745637975"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 1,
+          "column": "unknown",
+          "message": "Unexpected \"x\" on line 1."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 1,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T13:45:30.467Z",
+    "formSubmittedAt": "2025-10-29T13:47:17.975Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 108,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:45:30.467Z",
+        "endTime": "2025-10-29T13:47:17.975Z",
+        "durationSeconds": 108
+      }
+    ],
+    "totalTimeSpentSeconds": 108,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:47:17.975Z"
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+  "timestamp": "2025-10-29T13:47:17.975Z",
+  "exportDate": "2025-10-29T13:47:48.290Z"
+}

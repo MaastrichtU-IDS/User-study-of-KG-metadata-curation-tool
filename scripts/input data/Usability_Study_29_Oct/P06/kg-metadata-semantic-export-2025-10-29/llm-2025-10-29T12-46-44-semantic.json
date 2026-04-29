@@ -1,0 +1,527 @@
+{
+  "name": "QuoteKG",
+  "dcat:acronym": [
+    "QKG"
+  ],
+  "date": "2025-10-29T12:46:44.912Z",
+  "formData": {
+    "dct:identifier": [
+      "99fb7965-468a-4acb-aebb-29751037ef82"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "QuoteKG",
+    "dct:description": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+    "dct:created": "2019/11/20",
+    "dct:modified": [
+      "2021-09-15"
+    ],
+    "dct:issued": "2020-12-11",
+    "dct:alternative": [
+      "Quote KG Knowledge Graph"
+    ],
+    "dcat:acronym": [
+      "QKG"
+    ],
+    "dcat:landingPage": [
+      "https://www.quotekg.l3s.uni-hannover.de"
+    ],
+    "rdfs:seeAlso": [
+      "https://github.com/tkuculo/QuoteKG",
+      "https://zenodo.org/record/4702544"
+    ],
+    "prov:qualifiedAttribution": [
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Tin Kuculo",
+        "email": "tin@hotmail.com",
+        "id": 1761741608714
+      },
+      {
+        "roleType": "creator",
+        "agent": "",
+        "givenName": "Simon Gottschalk",
+        "email": "simon@yahoo.com",
+        "id": 1761741629212
+      },
+      {
+        "roleType": "publisher",
+        "agent": "",
+        "givenName": "L3S Research Leibniz University",
+        "email": "contact@l3s.de",
+        "id": 1761741659945
+      }
+    ],
+    "dct:license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "QuoteKG dataset files",
+        "description": "Access to QuoteKG datasets, SPARQL endpoint, and documentation.",
+        "mediaType": "link",
+        "downloadURL": "https://zenodo.org/record/4702544",
+        "accessURL": "https://zenodo.org/record/4702544",
+        "accessService": "https://www.quotekg.l3s.uni-hannover.de",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes"
+    ],
+    "void:description": [
+      "https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264"
+    ],
+    "dct:conformsTo": [],
+    "void:triple": [
+      "10 million RDF triples"
+    ],
+    "void:vocabulary": [
+      "https://schema.org/",
+      "https://www.w3.org/TR/void/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/t-kuculo/QuoteKG"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://www.quotekg.l3s.uni-hannover.de/sparql",
+        "dct:identifier": "QuoteKG SPARQL endpoint",
+        "dct:title": "QuoteKG Query Service",
+        "dct:description": "The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE {?quote a so:Quotation ;so:spokenByCharacter [ skos:prefLabel ?Person ] .} GROUP BY ?Person ORDER BY DESC(COUNT(?quote)"
+    ],
+    "dcat:keyword": [
+      "knowledge graph",
+      "cross-lingual alignment",
+      "text mining",
+      "open data",
+      "quotes"
+    ],
+    "dcat:theme": [
+      "http://dbpedia.org/resource/Digital_humanities",
+      "http://dbpedia.org/resource/Semantic_Web",
+      "http://dbpedia.org/resource/Natural_language_processing"
+    ],
+    "dct:references": [
+      "QuoteKG: A Multilingual Knowledge Graph of Quotes”(https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual _Knowledge_Graph_of_Quotes), Presented at the International Semantic W eb Conference, 2021.",
+      "https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes"
+    ],
+    "dct:language": [
+      "en",
+      "it"
+    ],
+    "void:uriRegexPattern": [
+      "http://quotekg.org/resource/{QuoteID}"
+    ],
+    "void:linkset": [
+      {
+        "target": "https://www.dbpedia.org/",
+        "triples": "1"
+      },
+      {
+        "target": "https://en.wikiquote.org",
+        "triples": "1"
+      },
+      {
+        "target": "https://www.wikidata.org/",
+        "triples": "1"
+      }
+    ],
+    "void:exampleResource": [
+      {
+        "dct:title": "Quote 1",
+        "dct:description": "Quote 1 refers to The only source of knowledge which is experience",
+        "adms:status": "Completed",
+        "dcat:accessURL": "http://quotekg.org/resource/Q123456"
+      }
+    ],
+    "dct:accessRights": "The dataset is fully open-access and can be queried, downloaded, and integrated into external systems under open data principles.",
+    "prov:hadPrimarySource": [
+      "https://www.wikiquote.org/"
+    ],
+    "void:uriSpace": [
+      "http://quotekg.org/resource/"
+    ],
+    "timestamp": "2025-10-29T12:46:44.912Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+    "submissionId": "kg-meta-1761742004912"
+  },
+  "validationErrors": {
+    "missingFields": [],
+    "invalidDates": [],
+    "errorMessage": "",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T12:46:44.911Z"
+  },
+  "aiSuggestions": {
+    "dct:title": "• QuoteKG",
+    "title_raw": {
+      "suggestions": [
+        {
+          "value": "QuoteKG",
+          "explanation": "Found in the narrative as the main title of the dataset."
+        }
+      ]
+    },
+    "dct:description": "• QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+    "description_raw": {
+      "suggestions": [
+        {
+          "value": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources.",
+          "explanation": "This description is directly stated in the narrative."
+        }
+      ]
+    },
+    "dct:created": "• 2019-11-20",
+    "createdDate_raw": {
+      "suggestions": [
+        {
+          "value": "2019-11-20",
+          "explanation": "The dataset was created on November 20, 2019."
+        }
+      ]
+    },
+    "dct:modified": "• 2021-09-15",
+    "modifiedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2021-09-15",
+          "explanation": "The dataset was last modified on September 15, 2021."
+        }
+      ]
+    },
+    "dct:issued": "• 2020-12-11",
+    "publishedDate_raw": {
+      "suggestions": [
+        {
+          "value": "2020-12-11",
+          "explanation": "The dataset was published on December 11, 2020."
+        }
+      ]
+    },
+    "dct:alternative": "• Quote Knowledge Graph",
+    "alternativeTitle_raw": {
+      "suggestions": [
+        {
+          "value": "Quote Knowledge Graph",
+          "explanation": "Found in the narrative as the expanded title of the dataset."
+        }
+      ]
+    },
+    "dcat:acronym": "• QKG",
+    "acronym_raw": {
+      "suggestions": [
+        {
+          "value": "QKG",
+          "explanation": "Found in the narrative as the acronym for QuoteKG."
+        }
+      ]
+    },
+    "dcat:landingPage": "• https://www.quotekg.l3s.uni-hannover.de",
+    "homepageURL_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.quotekg.l3s.uni-hannover.de",
+          "explanation": "This URL is mentioned as the main landing page for QuoteKG."
+        }
+      ]
+    },
+    "rdfs:seeAlso": "• https://github.com/tkuculo/QuoteKG\n• https://zenodo.org/record/4702544",
+    "otherPages_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/tkuculo/QuoteKG",
+          "explanation": "This URL is mentioned for additional project materials."
+        },
+        {
+          "value": "https://zenodo.org/record/4702544",
+          "explanation": "This URL is mentioned for additional project materials."
+        }
+      ]
+    },
+    "dct:license": "• https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_raw": {
+      "suggestions": [
+        {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "explanation": "The dataset is released under the Creative Commons Attribution–ShareAlike 4.0 International License."
+        }
+      ]
+    },
+    "dcat:version": "• 1.0",
+    "version_raw": {
+      "suggestions": [
+        {
+          "value": "1.0",
+          "explanation": "The narrative specifies that QuoteKG version 1.0 was released."
+        }
+      ]
+    },
+    "cito:citesAsAuthority": "• https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes",
+    "primaryReferenceDocument_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes",
+          "explanation": "This document is referenced as the primary reference for QuoteKG."
+        }
+      ]
+    },
+    "void:description": "• https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264",
+    "metaGraph_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.researchgate.net/figure/The-QuoteKG-schema-based-on-schemaorg-Arrows-visualize-the-rdfs-domain-and-rdfsrange_fig1_362152264",
+          "explanation": "The meta graph for QuoteKG is available at this URL."
+        }
+      ]
+    },
+    "void:triple": "• 10 million RDF triples\n• 1 million quotes in 55 languages\n• 69,000 public figures\n• 38,931 quotes with multilingual mentions\n• 13,104 misattributed quotes",
+    "statistics_raw": {
+      "suggestions": [
+        {
+          "value": "10 million RDF triples",
+          "explanation": "The narrative states that QuoteKG contains around 10 million RDF triples."
+        },
+        {
+          "value": "1 million quotes in 55 languages",
+          "explanation": "The dataset contains nearly one million quotes in 55 languages."
+        },
+        {
+          "value": "69,000 public figures",
+          "explanation": "The dataset is associated with more than 69,000 public figures."
+        },
+        {
+          "value": "38,931 quotes with multilingual mentions",
+          "explanation": "The dataset includes over 38,931 quotes with multilingual mentions."
+        },
+        {
+          "value": "13,104 misattributed quotes",
+          "explanation": "The dataset includes over 13,104 misattributed quotations."
+        }
+      ]
+    },
+    "void:vocabulary": "• https://schema.org/\n• https://www.w3.org/TR/void/\n• http://www.w3.org/2001/XMLSchema#\n• http://www.w3.org/2000/01/rdf-schema#\n• http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "vocabulariesUsed_raw": {
+      "suggestions": [
+        {
+          "value": "https://schema.org/",
+          "explanation": "This vocabulary is mentioned as part of the vocabularies used in QuoteKG."
+        },
+        {
+          "value": "https://www.w3.org/TR/void/",
+          "explanation": "This vocabulary is mentioned as part of the vocabularies used in QuoteKG."
+        },
+        {
+          "value": "http://www.w3.org/2001/XMLSchema#",
+          "explanation": "This vocabulary is mentioned as part of the vocabularies used in QuoteKG."
+        },
+        {
+          "value": "http://www.w3.org/2000/01/rdf-schema#",
+          "explanation": "This vocabulary is mentioned as part of the vocabularies used in QuoteKG."
+        },
+        {
+          "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+          "explanation": "This vocabulary is mentioned as part of the vocabularies used in QuoteKG."
+        }
+      ]
+    },
+    "dcat:servesDataset": "• https://github.com/t-kuculo/QuoteKG",
+    "restAPI_raw": {
+      "suggestions": [
+        {
+          "value": "https://github.com/t-kuculo/QuoteKG",
+          "explanation": "The REST API is accessible from this URL."
+        }
+      ]
+    },
+    "void:sparqlEndpoint": "• {\"endpointURL\": \"https://www.quotekg.l3s.uni-hannover.de/sparql\", \"title\": \"QuoteKG Query Service\", \"endpointDescription\": \"The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+    "sparqlEndpoint_raw": {
+      "suggestions": [
+        {
+          "value": "{\"endpointURL\": \"https://www.quotekg.l3s.uni-hannover.de/sparql\", \"title\": \"QuoteKG Query Service\", \"endpointDescription\": \"The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.\", \"status\": \"http://purl.org/adms/status/Completed\"}",
+          "explanation": "The SPARQL endpoint is detailed in the narrative."
+        }
+      ]
+    },
+    "mod:sampleQueries": "• SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE {?quote a so:Quotation ;so:spokenByCharacter [ skos:prefLabel ?Person ] .} GROUP BY ?Person ORDER BY DESC(COUNT(?quote)",
+    "exampleQueries_raw": {
+      "suggestions": [
+        {
+          "value": "SELECT ?Person (COUNT(?quote) AS ?NumberOfQuotes) WHERE {?quote a so:Quotation ;so:spokenByCharacter [ skos:prefLabel ?Person ] .} GROUP BY ?Person ORDER BY DESC(COUNT(?quote)",
+          "explanation": "An example query is provided in the narrative."
+        }
+      ]
+    },
+    "dcat:keyword": "• knowledge graph\n• quotes\n• cross-lingual alignment\n• open data\n• text mining",
+    "keywords_raw": {
+      "suggestions": [
+        {
+          "value": "knowledge graph",
+          "explanation": "This keyword is mentioned in the narrative."
+        },
+        {
+          "value": "quotes",
+          "explanation": "This keyword is mentioned in the narrative."
+        },
+        {
+          "value": "cross-lingual alignment",
+          "explanation": "This keyword is mentioned in the narrative."
+        },
+        {
+          "value": "open data",
+          "explanation": "This keyword is mentioned in the narrative."
+        },
+        {
+          "value": "text mining",
+          "explanation": "This keyword is mentioned in the narrative."
+        }
+      ]
+    },
+    "dcat:theme": "• http://dbpedia.org/resource/Digital_humanities\n• http://dbpedia.org/resource/Semantic_Web\n• http://dbpedia.org/resource/Natural_language_processing",
+    "category_raw": {
+      "suggestions": [
+        {
+          "value": "http://dbpedia.org/resource/Digital_humanities",
+          "explanation": "The dataset is categorized under digital humanities."
+        },
+        {
+          "value": "http://dbpedia.org/resource/Semantic_Web",
+          "explanation": "The dataset is categorized under semantic web."
+        },
+        {
+          "value": "http://dbpedia.org/resource/Natural_language_processing",
+          "explanation": "The dataset is categorized under natural language processing."
+        }
+      ]
+    },
+    "dct:language": "• en\n• it\n• de\n• hr\n• cy",
+    "language_raw": {
+      "suggestions": [
+        {
+          "value": "en",
+          "explanation": "English is mentioned as one of the languages represented."
+        },
+        {
+          "value": "it",
+          "explanation": "Italian is mentioned as one of the languages represented."
+        },
+        {
+          "value": "de",
+          "explanation": "German is mentioned as one of the languages represented."
+        },
+        {
+          "value": "hr",
+          "explanation": "Croatian is mentioned as one of the languages represented."
+        },
+        {
+          "value": "cy",
+          "explanation": "Welsh is mentioned as one of the languages represented."
+        }
+      ]
+    },
+    "void:uriRegexPattern": "• http://quotekg.org/resource/{QuoteID}",
+    "iriTemplate_raw": {
+      "suggestions": [
+        {
+          "value": "http://quotekg.org/resource/{QuoteID}",
+          "explanation": "The URI pattern for quotes is specified in the narrative."
+        }
+      ]
+    },
+    "void:linkset": "• {\"target\": \"https://en.wikiquote.org\", \"triples\": \"1\"}\n• {\"target\": \"https://www.wikidata.org/\", \"triples\": \"1\"}\n• {\"target\": \"https://www.dbpedia.org/\", \"triples\": \"1\"}",
+    "linkedResources_raw": {
+      "suggestions": [
+        {
+          "value": "{\"target\": \"https://en.wikiquote.org\", \"triples\": \"1\"}",
+          "explanation": "QuoteKG links directly to its main source, Wikiquote."
+        },
+        {
+          "value": "{\"target\": \"https://www.wikidata.org/\", \"triples\": \"1\"}",
+          "explanation": "QuoteKG connects to Wikidata."
+        },
+        {
+          "value": "{\"target\": \"https://www.dbpedia.org/\", \"triples\": \"1\"}",
+          "explanation": "QuoteKG connects to DBpedia."
+        }
+      ]
+    },
+    "void:exampleResource": "• {\"title\": \"Quote 1\", \"description\": \"Quote 1 refers to The only source of knowledge which is experience\", \"accessURL\": \"http://quotekg.org/resource/Q123456\", \"status\": \"Completed\"}",
+    "exampleResource_raw": {
+      "suggestions": [
+        {
+          "value": "{\"title\": \"Quote 1\", \"description\": \"Quote 1 refers to The only source of knowledge which is experience\", \"accessURL\": \"http://quotekg.org/resource/Q123456\", \"status\": \"Completed\"}",
+          "explanation": "An example resource is provided in the narrative."
+        }
+      ]
+    },
+    "dct:accessRights": "• The dataset is fully open-access and can be queried, downloaded, and integrated into external systems under open data principles.",
+    "accessStatement_raw": {
+      "suggestions": [
+        {
+          "value": "The dataset is fully open-access and can be queried, downloaded, and integrated into external systems under open data principles.",
+          "explanation": "This is mentioned in the narrative regarding access rights."
+        }
+      ]
+    },
+    "prov:hadPrimarySource": "• https://www.wikiquote.org/",
+    "source_raw": {
+      "suggestions": [
+        {
+          "value": "https://www.wikiquote.org/",
+          "explanation": "Wikiquote is mentioned as the main source for the dataset."
+        }
+      ]
+    },
+    "void:uriSpace": "• http://quotekg.org/resource/",
+    "nameSpace_raw": {
+      "suggestions": [
+        {
+          "value": "http://quotekg.org/resource/",
+          "explanation": "The narrative specifies that all quotes share this namespace."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "submissionType": "llm",
+    "hasValidationErrors": false,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T12:46:44.912Z",
+    "formOpenedAt": "2025-10-29T12:36:06.985Z",
+    "formSubmittedAt": "2025-10-29T12:46:44.911Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 638,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:36:06.985Z",
+        "endTime": "2025-10-29T12:46:44.911Z",
+        "durationSeconds": 638
+      }
+    ],
+    "totalTimeSpentSeconds": 638,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0",
+  "timestamp": "2025-10-29T12:46:44.912Z",
+  "exportDate": "2025-10-29T13:19:42.647Z"
+}

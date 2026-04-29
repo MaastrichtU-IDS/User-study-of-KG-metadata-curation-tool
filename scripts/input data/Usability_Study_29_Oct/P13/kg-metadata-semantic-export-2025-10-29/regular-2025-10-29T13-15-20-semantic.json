@@ -1,0 +1,116 @@
+{
+  "name": "QuoteKG",
+  "dcat:acronym": [],
+  "date": "2025-10-29T13:15:20.840Z",
+  "formData": {
+    "dct:identifier": [
+      "25b95bf1-1142-46f8-9c4b-747a6794a462"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "QuoteKG",
+    "dct:description": "QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources. Formally defined as a DCAT dataset and VoID dataset (http://www.w3.org/ns/dcat#Dataset, http://rdfs.org/ns/void#Dataset), QuoteKG represents the first structured effort to semantically model quotations at scale. Its schema conforms to the RDF syntax model (http://www.w3.org/1999/02/22-rdf-syntax-ns#).",
+    "dct:created": "2025/10/29",
+    "dct:modified": [],
+    "dct:issued": "2025/10/29",
+    "dct:alternative": [],
+    "dcat:acronym": [],
+    "dcat:landingPage": [],
+    "rdfs:seeAlso": [],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [
+      {
+        "title": "QuoteKG dataset files",
+        "description": "Access to QuoteKG datasets, SPARQL endpoint, and documentation",
+        "mediaType": "link",
+        "downloadURL": "https://zenodo.org/record/4702544",
+        "accessURL": "https://www.quotekg.l3s.uni-hannover.de",
+        "accessService": "",
+        "byteSize": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "license": "",
+        "rights": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "QuoteKG: A Multilingual Knowledge Graph of Quotes”(https://www.researchgate.net/publication/360958399_QuoteKG_A_Multilingual_Knowledge_Graph_of_Quotes), Presented at the International Semantic Web Conference, 2021."
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "https://schema.org/, https://www.w3.org/TR/void/, http://www.w3.org/2001/XMLSchema#"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://www.quotekg.l3s.uni-hannover.de/sparql",
+        "dct:identifier": "QuoteKG SPARQL endpoint",
+        "dct:title": "QuoteKG Query Service",
+        "dct:description": "The QuoteKG SPARQL endpoint provides access to the complete multilingual quotations dataset, allowing users to query quotes, speakers, and alignments across languages and sources.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "knowledge graph, quotes, cross-lingual alignment, open data, and text mining."
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:15:20.840Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "submissionId": "kg-meta-1761743720840"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Access Statement"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Access Statement",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:15:20.839Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:15:20.840Z",
+    "formOpenedAt": "2025-10-29T13:09:36.324Z",
+    "formSubmittedAt": "2025-10-29T13:15:20.839Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 345,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:09:36.324Z",
+        "endTime": "2025-10-29T13:15:20.839Z",
+        "durationSeconds": 345
+      }
+    ],
+    "totalTimeSpentSeconds": 345,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+  "timestamp": "2025-10-29T13:15:20.840Z",
+  "exportDate": "2025-10-29T13:19:39.316Z"
+}

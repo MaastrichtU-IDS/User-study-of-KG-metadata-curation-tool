@@ -1,0 +1,43 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:02:48.824Z",
+  "formData": {
+    "turtleContent": "@prefix dcat: <http://www.w3.org/ns/dcat#> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix foaf: <http://xmlns.com/foaf/0.1/> .\n@prefix qkg: <http://quotekg.org/resource/> .\n\nqkg:QuoteKG\n  a dcat:Dataset ;\n  dct:title \"QuoteKG\"@en ;\n  dct:description \"QuoteKG is a large-scale multilingual knowledge graph of quotations, designed to capture and link quotes from public figures across different languages, contexts, and sources\"@en ;\n  dct:creator [\n    foaf:name \"Tin Kuculo\" ;\n    foaf:mbox <mailto:Tin@hotmail.com>;\n  ], [\n    foaf:name \"Simon Gottschalk\";\n    foaf:mbox <mailto:simon@yahoo.com>;\n  ] ;\n  dcat:landingPage <https://github.com/tkuculo/QuoteKG> ;\n  dct:license <https://creativecommons.org/licenses/by-sa/4.0/legalcode> .",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:02:48.824Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761742968824"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 742,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T12:56:31.584Z",
+    "formSubmittedAt": "2025-10-29T13:02:48.824Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 377,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T12:56:31.584Z",
+        "endTime": "2025-10-29T13:02:48.824Z",
+        "durationSeconds": 377
+      }
+    ],
+    "totalTimeSpentSeconds": 377,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:02:48.824Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:02:48.824Z",
+  "exportDate": "2025-10-29T13:37:51.722Z"
+}

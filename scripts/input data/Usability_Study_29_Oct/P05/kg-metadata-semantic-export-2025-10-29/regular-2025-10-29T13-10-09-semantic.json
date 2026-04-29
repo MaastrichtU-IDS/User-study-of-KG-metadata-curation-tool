@@ -1,0 +1,112 @@
+{
+  "name": "YAGO",
+  "dcat:acronym": [
+    "YAGO"
+  ],
+  "date": "2025-10-29T13:10:09.595Z",
+  "formData": {
+    "dct:identifier": [
+      "7dbbdc1a-179a-471f-8a43-54ea161d39d6"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "YAGO",
+    "dct:description": "a large-scale semantic knowledge graph (KG) and ontology that unites factual information from major reference sources",
+    "dct:created": "2025-10-29",
+    "dct:modified": [
+      "2025/10/29"
+    ],
+    "dct:issued": "2025-10-29",
+    "dct:alternative": [
+      "YAGOKG"
+    ],
+    "dcat:acronym": [
+      "YAGO"
+    ],
+    "dcat:landingPage": [
+      "http://yago-knowledge.org"
+    ],
+    "rdfs:seeAlso": [
+      "https://www.mpi-inf.mpg.de/home"
+    ],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "",
+    "dcat:version": "",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "semantic knowledge graph",
+      "lightweight",
+      "high coverage",
+      "high accuracy",
+      "ontology"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en",
+      "ge",
+      "fr",
+      "du",
+      "it",
+      "sp",
+      "ro",
+      "po",
+      "ar"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:10:09.595Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761743409595"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution",
+      "Access Statement",
+      "Vocabularies Used"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution, Access Statement, Vocabularies Used",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:10:09.594Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:10:09.595Z",
+    "formOpenedAt": "2025-10-29T13:01:08.934Z",
+    "formSubmittedAt": "2025-10-29T13:10:09.594Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 541,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:01:08.934Z",
+        "endTime": "2025-10-29T13:10:09.594Z",
+        "durationSeconds": 541
+      }
+    ],
+    "totalTimeSpentSeconds": 541,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:10:09.595Z",
+  "exportDate": "2025-10-29T13:33:09.363Z"
+}

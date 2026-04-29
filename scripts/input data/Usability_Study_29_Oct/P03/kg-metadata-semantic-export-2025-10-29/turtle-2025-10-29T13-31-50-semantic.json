@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:31:50.845Z",
+  "formData": {
+    "turtleContent": "@prefix ex: <http://example.org/>\n@prefix wd: <https://www.wikidata.org/>\n@prefix dct: <purl.org/dc/terms>\n@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>\n@prefix dcat: <http://www.w3.org/ns/dcat#>\n@prefix qudt: <http://qudt.org/schema/>\n@prefix foaf: <http://xmlns.com/foaf/0.1/>\nex:QuoteKG a dcat:Dataset;\n  dct:identifier \"QuoteKG SPARQL endpoint\"^^string;\n  dct:title \"QuoteKG\"@en;\n  dct:alternative \"Quote Knowledge Graph\"@en;\n  qudt:acronym \"QKG\"^^string;\n  dct:description \"the first multilingual knowledge graph of quotes, designed to capture the quotes of public figures across languages and contexts\"^^string;\n  foaf:page <https://github.com/tkuculo/QuoteKG>",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:31:50.845Z",
+    "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761744710845"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 2,
+          "column": "unknown",
+          "message": "Expected declaration to end with a dot on line 2."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 680,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T13:13:13.702Z",
+    "formSubmittedAt": "2025-10-29T13:31:50.845Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 1117,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:13:13.702Z",
+        "endTime": "2025-10-29T13:31:50.845Z",
+        "durationSeconds": 1117
+      }
+    ],
+    "totalTimeSpentSeconds": 1117,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:31:50.845Z"
+  },
+  "browserType": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:31:50.845Z",
+  "exportDate": "2025-10-29T13:51:58.276Z"
+}

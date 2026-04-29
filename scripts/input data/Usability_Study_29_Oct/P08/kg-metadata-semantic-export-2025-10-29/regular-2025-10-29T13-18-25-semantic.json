@@ -1,0 +1,93 @@
+{
+  "name": "Bio2RDF",
+  "dcat:acronym": [],
+  "date": "2025-10-29T13:18:25.218Z",
+  "formData": {
+    "dct:identifier": [
+      "9dea4c68-8e8a-4a54-960d-58046fbcd423"
+    ],
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "Bio2RDF",
+    "dct:description": "“A semantic integration framework for bioinformatics data sources, converting public biological and chemical databases into RDF graphs.”",
+    "dct:created": "",
+    "dct:modified": [],
+    "dct:issued": "2014-11-20",
+    "dct:alternative": [],
+    "dcat:acronym": [],
+    "dcat:landingPage": [
+      "http://bio2rdf.org"
+    ],
+    "rdfs:seeAlso": [
+      "http://bio2rdf.org"
+    ],
+    "prov:qualifiedAttribution": [],
+    "dct:license": "",
+    "dcat:version": "1.0",
+    "dcat:distribution": [],
+    "cito:citesAsAuthority": [
+      "http://bio2rdf.org/",
+      "http://bio2rdf.org/"
+    ],
+    "void:description": [],
+    "dct:conformsTo": [],
+    "void:triple": [],
+    "void:vocabulary": [
+      "http://bio2rdf.org"
+    ],
+    "dcat:servesDataset": [],
+    "void:sparqlEndpoint": [],
+    "mod:sampleQueries": [],
+    "dcat:keyword": [
+      "Bioinformatics"
+    ],
+    "dcat:theme": [],
+    "dct:references": [],
+    "dct:language": [
+      "en"
+    ],
+    "void:uriRegexPattern": [],
+    "void:linkset": [],
+    "void:exampleResource": [],
+    "dct:accessRights": "http://purl.org/dc/terms/accessRights/open",
+    "prov:hadPrimarySource": [],
+    "void:uriSpace": [],
+    "timestamp": "2025-10-29T13:18:25.218Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+    "submissionId": "kg-meta-1761743905218"
+  },
+  "validationErrors": {
+    "missingFields": [
+      "Distribution"
+    ],
+    "invalidDates": [],
+    "errorMessage": "The following fields are required but have not been filled: Distribution",
+    "submissionMode": "forced",
+    "submissionTimestamp": "2025-10-29T13:18:25.218Z"
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "regular",
+    "hasValidationErrors": true,
+    "submissionMode": "FORCED_SUBMISSION",
+    "timestamp": "2025-10-29T13:18:25.218Z",
+    "formOpenedAt": "2025-10-29T13:13:50.941Z",
+    "formSubmittedAt": "2025-10-29T13:18:25.218Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 274,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:13:50.941Z",
+        "endTime": "2025-10-29T13:18:25.218Z",
+        "durationSeconds": 274
+      }
+    ],
+    "totalTimeSpentSeconds": 274,
+    "numberOfEditSessions": 1
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15",
+  "timestamp": "2025-10-29T13:18:25.218Z",
+  "exportDate": "2025-10-29T13:18:50.688Z"
+}

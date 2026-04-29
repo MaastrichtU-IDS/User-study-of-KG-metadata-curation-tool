@@ -1,0 +1,142 @@
+{
+    "rdf:type": [
+      "dcat:Dataset",
+      "void:Dataset"
+    ],
+    "dct:title": "YAGO",
+    "dct:description": " YAGO is described as a lightweight, extensible ontology that integrates entities and relations, combining high coverage with high accuracy. The dataset contains approximately 900,000 entities and five million facts, including both taxonomic (Is-A hierarchy) and non-taxonomic relations such as hasWonPrize. It is automatically constructed from Wikipedia and WordNet using a combination of rule-based and heuristic methods. YAGO extends WordNet by introducing entities such as people, organizations, and products, achieving an estimated 95% empirical fact accuracy. It is built on a logically decidable model compatible with RDFS semantics, supporting extensibility through modern information extraction techniques. ",
+    "dct:created": "2012-10-29",
+    "dct:modified": [
+      "2013-09-15"
+    ],
+    "dct:issued": "2013-05-23",
+    "dct:alternative": [
+      "Yet Another Great Ontology"
+    ],
+    "dcat:acronym": [
+      "YAGO"
+    ],
+    "dcat:landingPage": [
+      "http://yago-knowledge.org"
+    ],
+    "rdfs:seeAlso": [
+      "http://www.mpi-inf.mpg.de/home"
+    ],
+    "prov:qualifiedAttribution": [
+          {
+        "roleType": "publisher",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Max-Planck-Institut für Informatik",
+        "email": "library@mpi-sb.mpg.de"
+      },
+      {
+        "roleType": "creator",
+        "inputMode": "nameEmail",
+        "agent": "",
+        "givenName": "Fabian M.",
+        "email": "email: FabianM@gmail.com"
+      }   
+    ],
+    "dct:license": "https://opensource.org/licenses/GPL-3.0",
+    "dcat:version": "1.0",
+    "dcat:distribution": [
+      {
+        "title": "YAGO files",
+        "description": "YAGO download page",
+        "mediaType": "link",
+        "downloadURL": "http://yago-knowledge.org",
+        "accessURL": "http://yago-knowledge.org",
+        "byteSize": "",
+        "license": "",
+        "rights": "",
+        "accessService": "",
+        "compressionFormat": "",
+        "packagingFormat": "",
+        "hasPolicy": "",
+        "spatialResolution": "",
+        "temporalResolution": "",
+        "releaseDate": "",
+        "modificationDate": "",
+        "issued": ""
+      }
+    ],
+    "cito:citesAsAuthority": [
+      "https://suchanek.name/work/publications/www2007.pdf"
+    ],
+    "void:description": [
+      "https://yagoknowledge.org/"
+    ],
+    "dct:conformsTo": ["http://www.w3.org/1999/02/22-rdf-syntax-ns"],
+    "void:triple": [
+      "5000000 triples"
+    ],
+    "void:vocabulary": [
+      "http://yago-knowledge.org/resource/",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://www.w3.org/2000/01/rdf-schema#",
+      "http://www.w3.org/2004/02/skos/core#"
+    ],
+    "dcat:servesDataset": [
+      "https://github.com/bowdenk7/yago"
+    ],
+    "void:sparqlEndpoint": [
+      {
+        "void:sparqlEndpoint": "https://query.Yago.org/sparql",
+        "dct:identifier": "Wikidata SPARQL endpoint",
+        "dct:title": "Yago Query Service",
+        "dct:description": "The Wikidata Query Service generally contains the full data of Wikidata.",
+        "adms:status": "http://purl.org/adms/status/Completed"
+      }
+    ],
+    "mod:sampleQueries": [
+      "https://gist.github.com/mepcotterell/1833564"
+    ],
+    "dcat:keyword": [
+      "Ontology",
+      "Knowledge Extraction",
+      "Wikipedia",
+      "WordNet"
+    ],
+    "dcat:theme": [
+      "Culture and Recreation"
+    ],
+    "dct:references": ["https://arxiv.org/abs/2308.11884"],
+    "dct:language": [
+      "en",
+      "de",
+      "fr",
+      "nl",
+      "it",
+      "es",
+      "ro",
+      "pl",
+      "ar"
+    ],
+    "void:uriRegexPattern": [
+      "http://yago-knowledge.org/resource/{EntityName}"
+    ],
+    "void:linkset": [
+      {
+        "target": "http://www.wikidata.org",
+        "triples": "3068"
+      }
+    ],
+    "void:exampleResource": [
+      {
+        "dct:title": "example",
+        "dct:description": "YAGO example resource",
+        "adms:status": "",
+        "dcat:accessURL": "http://mpii.mpg.de/yago#Albert_Einstein"
+      }
+    ],
+    "dct:accessRights": "YAGO dataset is publicly accessible",
+    "prov:hadPrimarySource": [
+      "https://www.wikipedia.org/",
+      "https://wordnet.princeton.edu/",
+      "https://www.wikidata.org/",
+      "https://www.geonames.org/"
+    ],
+    "void:uriSpace": [
+      "http://yago-knowledge.org/resource/"
+    ] }

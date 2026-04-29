@@ -1,0 +1,49 @@
+{
+  "name": "Turtle Entry",
+  "date": "2025-10-29T13:33:00.330Z",
+  "formData": {
+    "turtleContent": "@prefix ex:  <http://example.org/> .\n@prefix dct:  <http://www.w3.org/ns/dcat#Dataset> .\nex:Bio2RDF a dct:Dataset ;\n    dct:title \"Bio2RDF\" ;",
+    "submissionType": "turtle",
+    "dct:title": "Turtle Entry",
+    "timestamp": "2025-10-29T13:33:00.330Z",
+    "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "submissionId": "kg-meta-1761744780330"
+  },
+  "validationErrors": {
+    "turtleValidation": {
+      "isValid": true,
+      "errors": [
+        {
+          "line": 5,
+          "column": "unknown",
+          "message": "Expected entity but got eof on line 5."
+        }
+      ],
+      "errorCount": 0
+    }
+  },
+  "aiSuggestions": {},
+  "metadata": {
+    "submissionType": "turtle",
+    "contentLength": 141,
+    "hasValidationErrors": false,
+    "validationErrorCount": 0,
+    "formOpenedAt": "2025-10-29T13:22:51.498Z",
+    "formSubmittedAt": "2025-10-29T13:33:00.329Z",
+    "autoSubmittedByTimer": false,
+    "timeSpentSeconds": 609,
+    "editSessions": [
+      {
+        "startTime": "2025-10-29T13:22:51.499Z",
+        "endTime": "2025-10-29T13:33:00.330Z",
+        "durationSeconds": 609
+      }
+    ],
+    "totalTimeSpentSeconds": 609,
+    "numberOfEditSessions": 1,
+    "timestamp": "2025-10-29T13:33:00.330Z"
+  },
+  "browserType": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+  "timestamp": "2025-10-29T13:33:00.330Z",
+  "exportDate": "2025-10-29T13:33:09.364Z"
+}
