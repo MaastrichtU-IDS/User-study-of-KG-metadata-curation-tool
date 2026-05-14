@@ -14,11 +14,7 @@ Standard form:  https://maastrichtu-ids.github.io/knowledge-graph-metadata-form/
 
  Turtle editor: https://maastrichtu-ids.github.io/knowledge-graph-metadata-form/?mode=turtle 
  
-```
-
-To reproduce the analysis results run Scripts/User_study_Analysis.ipynb.
-
-```
+To reproduce the analysis results, run the notebook `Scripts/User_study_Analysis.ipynb`.
 
 ## Metadata Specification
 
