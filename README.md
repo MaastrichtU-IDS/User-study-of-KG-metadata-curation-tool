@@ -136,7 +136,7 @@ You do not need to write any Turtle syntax — the form automatically converts y
 
 ---
 
-### Tool C – LLM-Assisted Form
+### Tool C – AI Assisted Form
 
 The third tool uses **AI assistance** to help you fill the metadata form.  
 You must upload the natural-language KG document, and the tool will generate **AI suggestions** for each metadata field.
@@ -148,7 +148,7 @@ You must upload the natural-language KG document, and the tool will generate **A
 
 *Example screenshot of Tool 3:*
 <p align="center">
-  <img src="llm.png" alt="participants%20letter/LLM-Assisted Form" width="700"/>
+  <img src="participants%20letter/llm.png" alt="AI-Assisted Form" width="700"/>
 </p>
 
 
